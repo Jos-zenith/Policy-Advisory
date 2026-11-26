@@ -1,0 +1,52 @@
+{
+  "configVersion": "v2026.11-s1",
+  "landing": {
+    "eyebrow": "Life cover, the honest way round",
+    "headline": "Could your family carry on without you?",
+    "sub": "Know your family's gap before you see a price.",
+    "body": "Three answers give you a first estimate in about 30 seconds. No name, phone or email until you choose to talk to someone.",
+    "cta": "Check my family's gap",
+    "secondary": "How we calculate",
+    "miniTitle": "Try a demo family",
+    "howItWorksEyebrow": "How it works",
+    "howItWorksTitle": "Know your family's gap before you see a price",
+    "steps": [
+      { "n": 1, "title": "Answer 3 questions", "body": "Age, income and dependants. A first verdict in about 30 seconds, no phone number needed." },
+      { "n": 2, "title": "See your real gap", "body": "Loans, goals and existing cover in one picture. Tap any number to see the maths." },
+      { "n": 3, "title": "Compare honestly", "body": "Term cover first. Savings plans only once your family is protected." },
+      { "n": 4, "title": "Talk to a person", "body": "Book a free call. Your advisor gets your summary, so you don't start over." }
+    ]
+  },
+  "stage1": {
+    "eyebrow": "Step 1 of 4 · About 30 seconds",
+    "title": "Could your family carry on without you?",
+    "sub": "Three answers give you a first estimate. We don't ask for your name, phone or email.",
+    "answersTitle": "Your answers",
+    "personaLabel": "Try a demo persona",
+    "ageLabel": "Your age",
+    "incomeLabel": "Annual income (₹ lakh)",
+    "dependantsLabel": "Does anyone depend on your income?",
+    "liveNote": "The result updates as you type. Nothing is stored until you choose to book a call.",
+    "resultTitle": "Your first estimate",
+    "needLabel": "Life cover your family may need",
+    "leftOut": "Left out so far:",
+    "leftOutBody": "loans, existing cover and savings. Loans can only raise this figure. Existing cover and savings can only lower it.",
+    "gapNote": "Your gap depends on cover you already have; add it in step 2.",
+    "refine": "Refine my gap · 2 min",
+    "save": "Save this result",
+    "stopNote": "You can stop here. Your answers carry forward if you continue.",
+    "empty": "Answer the three questions to see a first estimate.",
+    "invalid": "Check the highlighted answers to see your estimate.",
+    "nextEyebrow": "What the next steps add · All optional",
+    "next": [
+      { "title": "2 · Refined gap", "body": "Add loans, goals and existing cover. Every number is clickable.", "href": "/gap" },
+      { "title": "3 · Options", "body": "See which policy type fits and try cover, term and premium.", "href": "/options" },
+      { "title": "4 · Advisor", "body": "Book a free call. The advisor gets your summary, so you don't start over.", "href": "/options?book=1" }
+    ]
+  },
+  "verdicts": {
+    "UNDERINSURED": { "label": "Likely underinsured", "tone": "warn" },
+    "NEEDS_DETAIL": { "label": "Needs more detail", "tone": "blue" },
+    "COVERED": { "label": "You appear adequately covered", "tone": "green" }
+  }
+}

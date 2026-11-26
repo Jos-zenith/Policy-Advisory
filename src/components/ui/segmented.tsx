@@ -24,8 +24,9 @@ export function Segmented<T extends string>({
       className={cn("grid overflow-hidden rounded-xl border border-line bg-white", className)}
       style={{ gridTemplateColumns: `repeat(${options.length}, minmax(0, 1fr))` }}
     >
-      {options.map((o) => {
+      {options.map((o, idx) => {
         const active = o.value === value;
+        const focusable = active || (idx === 0 && !options.some((x) => x.value === value));
         return (
           <button
             key={o.value}
@@ -44,7 +45,7 @@ export function Segmented<T extends string>({
                 onChange(options[(i - 1 + options.length) % options.length].value);
               }
             }}
-            tabIndex={active ? 0 : -1}
+            tabIndex={focusable ? 0 : -1}
             className={cn("font-medium transition-colors", size === "lg" ? "h-12 text-base" : "h-11 text-[15px]", active ? "bg-ink text-white" : "text-ink hover:bg-bg-alt")}
           >
             {o.label}

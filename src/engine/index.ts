@@ -12,3 +12,4 @@ export * from "./needs";
 export * from "./reconcile";
 export * from "./analysis";
 export * from "./sensitivity";
+export * from "./narrative";
