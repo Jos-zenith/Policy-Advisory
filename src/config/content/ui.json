@@ -1,0 +1,25 @@
+{
+  "brand": "Needs Finder",
+  "stepper": [
+    { "id": "verdict", "label": "Verdict", "href": "/estimate", "optional": false },
+    { "id": "gap", "label": "Refined gap", "href": "/gap", "optional": true },
+    { "id": "options", "label": "Options", "href": "/options", "optional": true },
+    { "id": "advisor", "label": "Advisor", "href": "/options?book=1", "optional": true }
+  ],
+  "disclaimers": {
+    "default": { "text": "Educational calculator, not financial advice. Figures are indicative and use sample data and placeholder assumptions (config {configVersion}). Products shown are fictional.", "trace": "FR-8.3" },
+    "gap": { "text": "Educational calculator, not financial advice. Figures use sample data and placeholder assumptions (config {configVersion}). Rounded for display; full precision is kept internally.", "trace": "FR-8.3" },
+    "options": { "text": "Educational calculator, not financial advice. Indicative premiums from sample rate tables, not a binding quote. Products are fictional. Config {configVersion}.", "trace": "FR-8.3" },
+    "policy": { "text": "Educational calculator, not financial advice. Surrender, paid-up and maturity values are illustrative and use placeholder assumptions (config {configVersion}). The product is fictional.", "trace": "FR-8.3" },
+    "booking": { "text": "Educational calculator and appointment scheduler, not financial advice. Advisors and slots are sample data.", "trace": "FR-8.3" },
+    "advisor": { "text": "Internal view for licensed advisors and compliance reviewers. Sample data. Demo sign-in, not real authentication.", "trace": "FR-8.3" },
+    "judges": { "text": "Educational calculator and scheduler, not financial advice. Sample data and placeholder assumptions until the hackathon data reveal.", "trace": "FR-8.3" }
+  },
+  "remunerationPlaceholder": "[Remuneration disclosure: who is paid, by whom. Confirm wording with compliance.]",
+  "advisorRemunerationPlaceholder": "[Remuneration disclosure: how advisors are paid and by whom. Confirm wording with compliance.]",
+  "judgeMode": {
+    "label": "Judge mode",
+    "onHint": "Showing requirement, rule and assumption IDs",
+    "offHint": "Customer view"
+  }
+}

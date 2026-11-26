@@ -1,0 +1,47 @@
+{
+  "configVersion": "v2026.11-s1",
+  "coverStep": 1000000,
+  "coverSliderStep": 1000000,
+  "coverSliderMin": 5000000,
+  "coverSliderMax": 50000000,
+  "frequencies": {
+    "YEARLY": {
+      "label": "Yearly",
+      "periodsPerYear": 1,
+      "factor": 1,
+      "note": "Paid once a year"
+    },
+    "MONTHLY": {
+      "label": "Monthly",
+      "periodsPerYear": 12,
+      "factor": 0.0875,
+      "note": "Paid every month (12 × 8.75% of the yearly premium)"
+    }
+  },
+  "sensitivity": {
+    "lifeYearsDelta": 5,
+    "inflationDelta": 0.01
+  },
+  "runway": {
+    "compareAmount": 10000000,
+    "minGapForDefault": 12000000,
+    "fallbackShare": 0.5,
+    "fallbackRoundTo": 500000
+  },
+  "affordabilityMeterMax": 0.15,
+  "accessDaysAfterCall": 7,
+  "bridge": {
+    "suggestRule": "R-BR1"
+  },
+  "resultLevels": {
+    "basic": "Basic result",
+    "refined": "Refined result",
+    "detailed": "Detailed result"
+  },
+  "limits": {
+    "minAge": 18,
+    "maxAge": 75,
+    "maxAmount": 100000000000,
+    "maxIncomeYears": 3
+  }
+}

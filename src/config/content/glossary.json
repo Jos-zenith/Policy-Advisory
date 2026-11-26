@@ -1,0 +1,23 @@
+{
+  "configVersion": "v2026.11-s1",
+  "terms": {
+    "hlv": { "term": "Human Life Value (HLV)", "plain": "What your future earnings are worth today, after your own spending, until you retire." },
+    "annuityFactor": { "term": "Annuity factor", "plain": "How many years of a yearly amount a lump sum must cover, after allowing for prices rising and money earning a return." },
+    "annuityDue": { "term": "Annuity due", "plain": "The first year's money is needed straight away, not at the end of the year." },
+    "realRate": { "term": "Real rate", "plain": "The return on savings after taking out price rises (or income growth)." },
+    "surrenderValue": { "term": "Surrender value", "plain": "What you get back if you stop a savings policy early. Usually much less than you paid in the first years." },
+    "gsv": { "term": "Guaranteed surrender value", "plain": "The minimum the insurer must pay back, set as a percentage of the premiums you have paid." },
+    "ssv": { "term": "Special surrender value", "plain": "A value the insurer may offer instead, if it is higher than the guaranteed value." },
+    "paidUp": { "term": "Paid-up", "plain": "You stop paying, but the policy carries on with a smaller amount, in proportion to what you have paid." },
+    "maturity": { "term": "Maturity value", "plain": "What a savings policy pays if you live to the end of it. It does not protect your family if you die." },
+    "deathCover": { "term": "Death cover (sum assured)", "plain": "What your family gets if you die while the policy is running. Only this counts in your gap." },
+    "discontinuance": { "term": "Discontinuance fund", "plain": "If you stop a ULIP in the first 5 years, your money is moved here and paid out only after the lock-in ends." },
+    "lockIn": { "term": "Lock-in", "plain": "The years during which you can't take your money out." },
+    "rider": { "term": "Rider", "plain": "An optional add-on to a policy, for an extra premium." },
+    "insurerLimit": { "term": "Insurer limit", "plain": "The most cover an insurer will usually offer, set as a multiple of your income. Ours is a placeholder." },
+    "term": { "term": "Term life cover", "plain": "Pays your family if you die during the policy term. Nothing is paid back if you live, which is why it costs the least." },
+    "endowment": { "term": "Endowment", "plain": "A savings plan with a small amount of life cover, paying a lump sum on a fixed date." },
+    "wholeLife": { "term": "Whole life", "plain": "Cover that lasts for your whole life (to a set age such as 99 or 100)." },
+    "ulip": { "term": "ULIP", "plain": "A unit-linked plan: most of your money is invested in market funds, with some life cover." }
+  }
+}

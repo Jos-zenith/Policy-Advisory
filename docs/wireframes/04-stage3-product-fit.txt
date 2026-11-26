@@ -1,0 +1,122 @@
+INSURANCE
+Verdict
+Refined gap
+3
+Options
+optional
+4
+Advisor
+optional
+Judge's guide
+FOR YOUR GAP OF ₹2.39 CR
+Start with term life cover
+
+Term cover gives your family the most protection for each rupee. Savings plans come after the gap is closed, never instead of it.
+
+I already have a policy
+Recommended first
+Rule R1 · FR-3.1
+TERM LIFE · SAMPLE PRODUCT
+TermSecure Plus
+WHAT PROBLEM IT SOLVES
+
+Replaces your income for your family if you die during the policy term.
+
+Where your premium goes
+Protection 100%
+If you stop paying: cover simply ends. There's no savings part to lose, so surrender risk is low. FR-4.4
+You're eligible: entry age 18 to 60, term 10 to 30 years, maturity by 65, cover ₹25 L to ₹10 Cr. FR-3.3
+Pay: [Remuneration disclosure: who is paid, by whom. Confirm wording with compliance.]
+Try cover, term and premium
+FR-3.4 · FR-3.5
+Cover amount
+₹2.4 Cr
+₹50 L
+₹5 Cr
+Policy term
+25 years · to age 59
+10
+15
+20
+25
+30 years
+Pay
+Yearly
+Monthly
+Add accidental death rider
+Your premium
+₹25,920 a year
+Paid once a year
+Share of your income
+1.4%
+Budget limit 6%
+Premium as share of income, 0 to 15% (dark line marks your budget limit)
+Covers your whole gap of ₹2.39 Cr
+
+Rate used: age 34 · male · non-smoker · term 25 · cover ₹1 Cr and above · ₹1.08 per ₹1,000 · table RT-TS-01 · exact cell. We never extrapolate outside the table.
+
+Other policy types
+FR-3.2 · FR-3.7 · FR-3.8
+
+These mix protection with savings. While your gap is open they stay locked, so they can't replace term cover. Each one shows what it is for, where the money goes and what you'd get back if you stopped early.
+
+Locked
+Rule R2
+WHOLE LIFE · SAMPLE
+LifeLong Assure
+
+WHAT PROBLEM IT SOLVES
+Cover for your whole life, for a lifelong dependant or to leave an estate.
+
+Protection ~60%
+Savings ~40%
+
+Unlocks when: you tell us about a lifelong dependant or estate need and the premium fits your budget. Today, ₹2.4 Cr of whole life cover would cost about ₹2,95,000 a year (16% of income).
+
+Locked
+Rule R3
+ENDOWMENT · SAMPLE
+SureSave 20
+
+WHAT PROBLEM IT SOLVES
+A guaranteed lump sum on a fixed date, with a small amount of life cover.
+
+~10%
+Savings ~90%
+If you stop early (₹1,00,000 a year)
+YEAR	PAID	BACK	%
+1	₹1,00,000	₹15,000	15%
+2	₹2,00,000	₹60,000	30%
+3	₹3,00,000	₹1,05,000	35%
+5	₹5,00,000	₹2,50,000	50%
+7	₹7,00,000	₹3,50,000	50%
+
+Illustrative. Higher of guaranteed and special surrender value; schedule S-GSV-2024 in config. FR-4.1, 4.2
+
+Unlocks when: term cover closes your gap and you still have budget left over.
+
+Locked
+Rule R3
+ULIP · SAMPLE
+GrowWise Link
+
+WHAT PROBLEM IT SOLVES
+Long-term investing in market funds, with some life cover.
+
+~10%
+Investment ~90%
+
+If you stop early: money is locked in for 5 years. Stopping before then moves it to a discontinuance fund until year 5. Value depends on markets. FR-4.3
+
+Unlocks when: term cover closes your gap and you still have budget left over.
+
+Not shown for you (2)
+FR-3.3 · TC-09
+SmartTerm Young · entry age up to 30, you are 34
+Nearest eligible: TermSecure Plus
+Elite Term Max · minimum cover ₹5 Cr
+Nearest eligible: TermSecure Plus
+Save summary (PDF)
+Book a free advisor call
+
+Educational calculator, not financial advice. Indicative premiums from sample rate tables, not a binding quote. Products are fictional. Config v2026.11-s1. FR-8.3

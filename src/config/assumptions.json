@@ -1,0 +1,18 @@
+{
+  "configVersion": "v2026.11-s1",
+  "note": "All defaults are placeholders for a finance reviewer to confirm, not industry standards.",
+  "assumptions": [
+    { "id": "A-INFL", "key": "inflation", "label": "Prices rise each year", "symbol": "i", "unit": "pct", "value": 0.06, "step": 0.005, "min": 0, "max": 0.15, "adjustable": true, "placeholder": true },
+    { "id": "A-DISC", "key": "discount", "label": "Return on money set aside", "symbol": "d", "unit": "pct", "value": 0.07, "step": 0.005, "min": 0, "max": 0.15, "adjustable": true, "placeholder": true },
+    { "id": "A-GROWTH", "key": "incomeGrowth", "label": "Your income grows each year", "symbol": "g", "unit": "pct", "value": 0.05, "step": 0.005, "min": 0, "max": 0.15, "adjustable": true, "placeholder": true },
+    { "id": "A-RETAGE", "key": "retirementAge", "label": "Retirement age", "symbol": "", "unit": "years", "value": 60, "step": 1, "min": 45, "max": 75, "adjustable": true, "placeholder": true },
+    { "id": "A-EXP-SHARE", "key": "expenseShare", "label": "Your own share of spending", "symbol": "e", "unit": "pct", "value": 0.25, "step": 0.05, "min": 0, "max": 0.6, "adjustable": true, "placeholder": true },
+    { "id": "A-LC-YEARS", "key": "lifeYears", "label": "Years of family support", "symbol": "n", "unit": "years", "value": 20, "step": 1, "min": 1, "max": 40, "adjustable": true, "placeholder": true },
+    { "id": "A-TIMING", "key": "needsTiming", "label": "Timing of family costs", "symbol": "", "unit": "text", "value": "due", "adjustable": false, "placeholder": true },
+    { "id": "A-HLV-TIMING", "key": "hlvTiming", "label": "Timing of income", "symbol": "", "unit": "text", "value": "ordinary", "adjustable": false, "placeholder": true },
+    { "id": "A-MAX-HORIZON", "key": "maxHorizon", "label": "Longest horizon when the real rate is negative", "symbol": "", "unit": "years", "value": 40, "adjustable": false, "placeholder": true },
+    { "id": "A-AFFORD-CAP", "key": "affordCap", "label": "Budget limit (premium as share of income)", "symbol": "", "unit": "pct", "value": 0.06, "step": 0.01, "min": 0.01, "max": 0.2, "adjustable": false, "placeholder": true },
+    { "id": "A-VOL-RATIO", "key": "volRatio", "label": "Income volatility flag (highest ÷ lowest year)", "symbol": "", "unit": "factor", "value": 1.5, "adjustable": false, "placeholder": true },
+    { "id": "A-SSV", "key": "ssvScheduleId", "label": "Special surrender value schedule", "symbol": "", "unit": "text", "value": "SSV-PLACEHOLDER", "adjustable": false, "placeholder": true }
+  ]
+}

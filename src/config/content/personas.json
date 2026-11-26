@@ -1,0 +1,268 @@
+{
+  "configVersion": "v2026.11-s1",
+  "note": "Demo personas. Fictional people, sample data.",
+  "personas": [
+    {
+      "id": "arjun",
+      "name": "Arjun",
+      "tagline": "34 · salaried · home loan",
+      "chip": true,
+      "state": "R1",
+      "stateLabel": "Gap open, term first",
+      "route": "/gap",
+      "stage1": { "age": 34, "income": 1800000, "hasDependants": true },
+      "provided": { "loans": true, "familyCosts": true, "goals": true, "existingCover": true, "assets": true, "incomeHistory": false },
+      "profile": {
+        "id": "P-ARJUN",
+        "age": 34,
+        "sex": "M",
+        "smoker": false,
+        "incomeHistory": [1800000],
+        "incomeBasis": "SALARIED",
+        "dependants": [{ "relation": "Spouse" }, { "relation": "Child" }, { "relation": "Child" }],
+        "loans": [{ "label": "Home loan", "outstanding": 4500000 }],
+        "goals": [
+          { "kind": "EDUCATION", "amount": 5000000 },
+          { "kind": "MARRIAGE", "amount": 2000000 },
+          { "kind": "HEALTH_EMERGENCY", "amount": 1000000 },
+          { "kind": "SPOUSE_RETIREMENT", "amount": 4000000 }
+        ],
+        "familyCostsPerYear": 720000,
+        "existingCover": [
+          { "kind": "OWN", "label": "Endowment plan (SureSave 16)", "deathSumAssured": 1000000, "productCategory": "ENDOWMENT" },
+          { "kind": "EMPLOYER", "label": "Group cover", "deathSumAssured": 3600000 }
+        ],
+        "assets": [
+          { "label": "Mutual funds", "value": 800000, "kind": "LIQUID", "allocatedTo": "EDUCATION" },
+          { "label": "Fixed deposit", "value": 400000, "kind": "LIQUID", "allocatedTo": "LOANS" },
+          { "label": "EPF", "value": 900000, "kind": "RETIREMENT", "allocatedTo": null }
+        ]
+      },
+      "existingPolicy": { "name": "SureSave 16", "category": "ENDOWMENT", "deathSumAssured": 1000000, "annualPremium": 48000, "policyTerm": 16, "policyYear": 4, "maturityBenefit": 1040000, "surrenderScheduleId": "S-GSV-2024" }
+    },
+    {
+      "id": "meena",
+      "name": "Meena",
+      "tagline": "41 · runs a shop",
+      "chip": true,
+      "state": "TC-06",
+      "stateLabel": "Irregular income",
+      "route": "/gap",
+      "stage1": { "age": 41, "income": 1200000, "hasDependants": true },
+      "provided": { "loans": true, "familyCosts": true, "goals": true, "existingCover": true, "assets": true, "incomeHistory": true },
+      "profile": {
+        "id": "P-MEENA",
+        "age": 41,
+        "sex": "F",
+        "smoker": false,
+        "incomeHistory": [900000, 1600000, 1200000],
+        "incomeBasis": "SELF_EMPLOYED",
+        "dependants": [{ "relation": "Child" }, { "relation": "Parent" }],
+        "loans": [{ "label": "Shop loan", "outstanding": 1500000 }],
+        "goals": [
+          { "kind": "EDUCATION", "amount": 2500000 },
+          { "kind": "HEALTH_EMERGENCY", "amount": 800000 }
+        ],
+        "familyCostsPerYear": 480000,
+        "existingCover": [{ "kind": "OWN", "label": "Term plan", "deathSumAssured": 2500000, "productCategory": "TERM" }],
+        "assets": [{ "label": "Savings account", "value": 300000, "kind": "LIQUID", "allocatedTo": "HEALTH_EMERGENCY" }]
+      },
+      "existingPolicy": null
+    },
+    {
+      "id": "ravi",
+      "name": "Ravi",
+      "tagline": "46 · holds an endowment plan",
+      "chip": true,
+      "state": "FR-6.1",
+      "stateLabel": "Existing savings policy",
+      "route": "/options?panel=policy",
+      "stage1": { "age": 46, "income": 1500000, "hasDependants": true },
+      "provided": { "loans": true, "familyCosts": true, "goals": true, "existingCover": true, "assets": true, "incomeHistory": false },
+      "profile": {
+        "id": "P-RAVI",
+        "age": 46,
+        "sex": "M",
+        "smoker": false,
+        "incomeHistory": [1500000],
+        "incomeBasis": "SALARIED",
+        "dependants": [{ "relation": "Spouse" }, { "relation": "Child" }],
+        "loans": [{ "label": "Car loan", "outstanding": 600000 }],
+        "goals": [
+          { "kind": "EDUCATION", "amount": 3000000 },
+          { "kind": "MARRIAGE", "amount": 1500000 }
+        ],
+        "familyCostsPerYear": 600000,
+        "existingCover": [{ "kind": "OWN", "label": "Endowment plan (SureSave 16)", "deathSumAssured": 1500000, "productCategory": "ENDOWMENT" }],
+        "assets": [{ "label": "Fixed deposit", "value": 500000, "kind": "LIQUID", "allocatedTo": "EDUCATION" }]
+      },
+      "existingPolicy": { "name": "SureSave 16", "category": "ENDOWMENT", "deathSumAssured": 1500000, "annualPremium": 72000, "policyTerm": 16, "policyYear": 6, "maturityBenefit": 1560000, "surrenderScheduleId": "S-GSV-2024" }
+    },
+    {
+      "id": "kavya",
+      "name": "Kavya",
+      "tagline": "27 · single, no loans",
+      "chip": true,
+      "state": "TC-07",
+      "stateLabel": "Minimal need",
+      "route": "/estimate",
+      "stage1": { "age": 27, "income": 900000, "hasDependants": false },
+      "provided": { "loans": true, "familyCosts": false, "goals": true, "existingCover": true, "assets": true, "incomeHistory": false },
+      "profile": {
+        "id": "P-KAVYA",
+        "age": 27,
+        "sex": "F",
+        "smoker": false,
+        "incomeHistory": [900000],
+        "incomeBasis": "SALARIED",
+        "dependants": [],
+        "loans": [],
+        "goals": [{ "kind": "HEALTH_EMERGENCY", "amount": 300000 }],
+        "existingCover": [{ "kind": "EMPLOYER", "label": "Group cover", "deathSumAssured": 1800000 }],
+        "assets": [{ "label": "Savings account", "value": 200000, "kind": "LIQUID", "allocatedTo": null }]
+      },
+      "existingPolicy": null
+    },
+    {
+      "id": "suresh",
+      "name": "Suresh",
+      "tagline": "52 · children grown, well covered",
+      "chip": false,
+      "state": "R4",
+      "stateLabel": "Adequately covered",
+      "route": "/gap",
+      "stage1": { "age": 52, "income": 2400000, "hasDependants": true },
+      "provided": { "loans": true, "familyCosts": true, "goals": true, "existingCover": true, "assets": true, "incomeHistory": false },
+      "profile": {
+        "id": "P-SURESH",
+        "age": 52,
+        "sex": "M",
+        "smoker": false,
+        "incomeHistory": [2400000],
+        "incomeBasis": "SALARIED",
+        "dependants": [{ "relation": "Spouse" }],
+        "loans": [{ "label": "Home loan", "outstanding": 800000 }],
+        "goals": [{ "kind": "SPOUSE_RETIREMENT", "amount": 2500000 }],
+        "familyCostsPerYear": 600000,
+        "existingCover": [
+          { "kind": "OWN", "label": "Term plan", "deathSumAssured": 10000000, "productCategory": "TERM" },
+          { "kind": "EMPLOYER", "label": "Group cover", "deathSumAssured": 2500000 }
+        ],
+        "assets": [
+          { "label": "Fixed deposit", "value": 1000000, "kind": "LIQUID", "allocatedTo": "LOANS" },
+          { "label": "PPF", "value": 1200000, "kind": "RETIREMENT", "allocatedTo": null }
+        ]
+      },
+      "existingPolicy": null
+    },
+    {
+      "id": "neha",
+      "name": "Neha",
+      "tagline": "45 · big loans, one income",
+      "chip": false,
+      "state": "R6",
+      "stateLabel": "Need above insurer limit",
+      "trace": "TC-10",
+      "route": "/gap",
+      "stage1": { "age": 45, "income": 1000000, "hasDependants": true },
+      "provided": { "loans": true, "familyCosts": true, "goals": true, "existingCover": true, "assets": true, "incomeHistory": false },
+      "profile": {
+        "id": "P-NEHA",
+        "age": 45,
+        "sex": "F",
+        "smoker": false,
+        "incomeHistory": [1000000],
+        "incomeBasis": "SALARIED",
+        "dependants": [{ "relation": "Child" }, { "relation": "Child" }, { "relation": "Parent" }],
+        "loans": [
+          { "label": "Home loan", "outstanding": 9000000 },
+          { "label": "Business loan", "outstanding": 4000000 }
+        ],
+        "goals": [
+          { "kind": "EDUCATION", "amount": 6000000 },
+          { "kind": "MARRIAGE", "amount": 3000000 }
+        ],
+        "familyCostsPerYear": 600000,
+        "existingCover": [],
+        "assets": []
+      },
+      "existingPolicy": null
+    },
+    {
+      "id": "farhan",
+      "name": "Farhan",
+      "tagline": "54 · smoker, modest income",
+      "chip": false,
+      "state": "R5",
+      "stateLabel": "Premium over budget",
+      "trace": "TC-08",
+      "route": "/options",
+      "stage1": { "age": 54, "income": 500000, "hasDependants": true },
+      "provided": { "loans": true, "familyCosts": true, "goals": true, "existingCover": true, "assets": true, "incomeHistory": false },
+      "profile": {
+        "id": "P-FARHAN",
+        "age": 54,
+        "sex": "M",
+        "smoker": true,
+        "incomeHistory": [500000],
+        "incomeBasis": "SALARIED",
+        "dependants": [{ "relation": "Spouse" }, { "relation": "Child" }],
+        "loans": [{ "label": "Home loan", "outstanding": 1500000 }],
+        "goals": [{ "kind": "EDUCATION", "amount": 1000000 }],
+        "familyCostsPerYear": 240000,
+        "existingCover": [],
+        "assets": []
+      },
+      "existingPolicy": null
+    },
+    {
+      "id": "gopal",
+      "name": "Gopal",
+      "tagline": "63 · supports a disabled son",
+      "chip": false,
+      "state": "TC-09",
+      "stateLabel": "Ineligible by age",
+      "route": "/options",
+      "stage1": { "age": 63, "income": 900000, "hasDependants": true },
+      "provided": { "loans": true, "familyCosts": true, "goals": true, "existingCover": true, "assets": true, "incomeHistory": false },
+      "profile": {
+        "id": "P-GOPAL",
+        "age": 63,
+        "sex": "M",
+        "smoker": false,
+        "incomeHistory": [900000],
+        "incomeBasis": "SALARIED",
+        "dependants": [{ "relation": "Spouse" }, { "relation": "Son", "lifelong": true }],
+        "loans": [],
+        "goals": [{ "kind": "OTHER", "amount": 2500000, "label": "Care fund for son" }],
+        "familyCostsPerYear": 300000,
+        "existingCover": [],
+        "assets": [{ "label": "Fixed deposit", "value": 600000, "kind": "LIQUID", "allocatedTo": "OTHER" }]
+      },
+      "existingPolicy": null
+    },
+    {
+      "id": "invalid",
+      "name": "Test input",
+      "tagline": "age 15, negative income",
+      "chip": false,
+      "state": "TC-12",
+      "stateLabel": "Invalid input",
+      "route": "/estimate",
+      "stage1": { "age": 15, "income": -200000, "hasDependants": true },
+      "provided": {},
+      "profile": {
+        "id": "P-INVALID",
+        "age": 15,
+        "incomeHistory": [-200000],
+        "incomeBasis": "SALARIED",
+        "dependants": [{ "relation": "Child" }],
+        "loans": [],
+        "goals": [],
+        "existingCover": [],
+        "assets": []
+      },
+      "existingPolicy": null
+    }
+  ]
+}

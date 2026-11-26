@@ -1,0 +1,110 @@
+INSURANCE
+Start the demo
+JUDGE'S GUIDE · HOW IT WORKS
+Every other flow asks what you want to buy. This one asks whether your family can carry on without you.
+
+Deterministic formulas and rules, no machine learning. Every number on screen can be traced to an input, a formula, a rule ID and a config version.
+
+The 60-second story
+1
+Tap the "Arjun" persona
+A verdict and range appear straight away, with no personal details asked. Stage 1
+2
+Open the gap: ₹2.39 Cr
+The waterfall adds up to the gap. Tap any bar to see its formula, inputs and config IDs. Stage 2
+3
+Ask "why not ₹1 Cr?"
+₹1 Cr runs out after the loan and about 7½ years of living costs. Assumption swings are one table away.
+4
+See term first, savings plans locked
+Drag the cover slider: the premium comes from the rate table, and the surrender table shows what early exit costs. Stage 3
+5
+Book, then show the advisor's view
+Reality check, slot and consent, then the one-page handoff and the decision trail. Stage 4 · Handoff
+The formulas
+Real rate        r = (1 + d) ÷ (1 + g) − 1
+Annuity factor   AF = (1 − (1 + r)^−n) ÷ r      (r ≠ 0; AF = n when r ≈ 0)
+Annuity due      AF_due = AF × (1 + r)
+
+HLV  = I × (1 − e) × AF        ordinary annuity, n = years to retirement
+Need = loans + living cost × AF_due(i) + education
+       + marriage + health and emergency + spouse retirement
+Gap  = Need − own death cover − employer cover − allocated savings
+
+d discount rate, g income growth, i expense inflation, n years, I income, e own-spending share. Guards: r ≤ −1 rejected; n ≤ 0 gives HLV 0; full precision internally, rounded only for display. PRD §5.10
+
+The rules, in order
+ID	WHEN	THEN
+R1	Gap > 0	Term first, recommended
+R2	Lifelong dependant or estate need, and affordable	Whole life as an add-on
+R3	Term gap closed and budget left over	Endowment or ULIP as add-ons
+R4	Gap ≤ 0	"You appear adequately covered"; nothing pushed
+R5	Premium above affordability cap	Lower cover → change term → drop riders → advisor
+R6	Need above insurer limit	Show both; route to advisor; need not capped
+E-*	Outside age, term or cover limits	Excluded, with reason and nearest eligible
+Architecture: ready for the data reveal
+
+The real files arrive on hackathon day. Only the dashed box is new code then; the engine and UI stay untouched.
+
+Reveal-day files
+14 products and rate tables, 200 profiles, 15 advisors and slots
+Adapters
+Map each file into our schema. The only code written on the day.
+Canonical schema
+Product · RateTable · Profile · Advisor · Slot
+Versioned config
+Assumptions, income bands, caps, surrender schedules
+Calc engine
+Pure functions: Needs, HLV, gap, guards
+Rule engine
+R1 to R6 plus eligibility
+Rate lookup
+Keyed by whatever dimensions exist; exact or nearest cell; never extrapolates
+Four-stage UI
+Verdict, gap, options, advisor
+Scheduler
+SQLite; slot locked in one transaction; idempotency key
+Decision trail
+Append-only; rule ID and config version on every row
+Handoff pack
+One page for the advisor; access logged and time-limited
+Product    { id, name, category: TERM | WHOLE_LIFE | ENDOWMENT | ULIP,
+             entryAge: [min, max], maxMaturityAge, term: [min, max],
+             cover: [min, max], riders[], savingsShare, surrenderScheduleId }
+RateTable  { productId, dims: ["age","sex","smoker","term","coverBand","frequency"],
+             cells: [ { key: {...}, ratePer1000 } ], version }
+Profile    { id, age, incomeHistory[3], dependants[], loans[], goals[],
+             existingCover[ { kind: OWN | EMPLOYER, deathSumAssured } ], assets[] }
+Advisor    { id, name, languages[], specialities[], licenceRef, licenceValidTo }
+Slot       { id, advisorId, start, end, capacity, booked }
+Built vs designed
+ITEM	PRD	SELECTION MVP
+Canonical schema, sample data, versioned config	FR-8.1	Ship
+Calc engine with guards; golden and property tests	FR-2.x	Ship
+Stage 1 verdict, Stage 2 waterfall and line items	FR-1, 2	Ship
+"Why ₹X and not ₹Y?" sensitivity	FR-2.11	Ship
+Rule engine, product cards, live sliders	FR-3.x	Ship
+Scheduler, handoff pack, decision trail	FR-7, 8.2	Ship
+Surrender table, reality check, progress ladder	FR-4, 5, 9	Ship, simplified
+Existing-policy bridge	FR-6.1	Ship, simplified
+Advisor feedback form	FR-7.6	Designed only
+Vernacular UI, low-bandwidth mode	FR-8.6	Designed only
+Life-event nudges, credit-life layer, LLM explainer	FR-8.7	Designed only
+Proof it holds
+
+Counts below are filled from the test run at build time.
+
+Golden cases: TC-01, 03, 10, 11, 12
+[passed] / 5
+Property: gap = need − offsets
+[pass/fail]
+Property: more cover never raises the gap
+[pass/fail]
+Property: no savings plan while gap > 0
+[pass/fail]
+Property: same input, same output
+[pass/fail]
+200-profile QA run
+[valid] / 200
+
+Educational calculator and scheduler, not financial advice. Sample data and placeholder assumptions until the hackathon data reveal. FR-8.3

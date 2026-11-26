@@ -1,0 +1,20 @@
+{
+  "configVersion": "v2026.11-s1",
+  "note": "Placeholders, to be confirmed by a finance reviewer.",
+  "quickEstimate": {
+    "withDependants": [
+      { "id": "B-AGE-01", "minAge": 18, "maxAge": 29, "low": 20, "high": 25 },
+      { "id": "B-AGE-02", "minAge": 30, "maxAge": 39, "low": 15, "high": 20 },
+      { "id": "B-AGE-03", "minAge": 40, "maxAge": 49, "low": 12, "high": 15 },
+      { "id": "B-AGE-04", "minAge": 50, "maxAge": 59, "low": 8, "high": 10 },
+      { "id": "B-AGE-05", "minAge": 60, "maxAge": 200, "low": 5, "high": 8 }
+    ],
+    "noDependants": { "id": "B-NODEP", "low": 0, "high": 3 }
+  },
+  "insurerCap": [
+    { "id": "CAP-01", "minAge": 18, "maxAge": 39, "multiple": 25 },
+    { "id": "CAP-02", "minAge": 40, "maxAge": 49, "multiple": 20 },
+    { "id": "CAP-03", "minAge": 50, "maxAge": 59, "multiple": 12 },
+    { "id": "CAP-04", "minAge": 60, "maxAge": 200, "multiple": 8 }
+  ]
+}

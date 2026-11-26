@@ -1,0 +1,61 @@
+INSURANCE
+1
+Verdict
+2
+Refined gap
+optional
+3
+Options
+optional
+4
+Advisor
+optional
+Judge's guide
+STEP 1 OF 4 · ABOUT 30 SECONDS
+Could your family carry on without you?
+
+Three answers give you a first estimate. We don't ask for your name, phone or email.
+
+Your answers
+FR-1.1
+TRY A DEMO PERSONA
+Arjun
+34 · salaried · home loan
+Meena
+41 · runs a shop
+Ravi
+46 · holds an endowment plan
+Kavya
+27 · single, no loans
+Your age
+Annual income (₹ lakh)
+₹18,00,000 a year
+Does anyone depend on your income?
+Yes
+No
+
+The result updates as you type. Nothing is stored until you choose to book a call.
+
+Your first estimate
+Basic result
+Likely underinsured
+Life cover your family may need
+₹2.7 Cr – ₹3.6 Cr
+
+For someone aged 30–39 with people depending on them, a sensible starting range is 15 to 20 times annual income. Many existing policies cover less than 5 times.
+
+Left out so far: loans, existing cover and savings. Loans can only raise this figure. Existing cover and savings can only lower it.
+
+Show how this is calculated
+Refine my gap · 2 min
+Save this result
+You can stop here. Your answers carry forward if you continue (FR-1.2).
+WHAT THE NEXT STEPS ADD · ALL OPTIONAL
+2 · Refined gap
+Add loans, goals and existing cover. Every number is clickable.
+3 · Options
+See which policy type fits and try cover, term and premium.
+4 · Advisor
+Book a free call. The advisor gets your summary, so you don't start over.
+
+Educational calculator, not financial advice. Figures are indicative and use sample data and placeholder assumptions (config v2026.11-s1). Products shown are fictional. FR-8.3

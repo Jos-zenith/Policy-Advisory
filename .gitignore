@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+data/*.db
+data/*.db-*
+.env
+.env.local
+playwright-report/
+test-results/
+*.tsbuildinfo
+next-env.d.ts
+src/qa/e2e-results.json

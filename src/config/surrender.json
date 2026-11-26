@@ -1,0 +1,24 @@
+{
+  "configVersion": "v2026.11-s1",
+  "illustrative": true,
+  "schedules": [
+    {
+      "id": "S-GSV-2024",
+      "label": "Guaranteed surrender value, % of premiums paid",
+      "note": "Years 2 to 7 follow the PRD's 2024-framework figures; the rest is an illustrative ramp.",
+      "byYear": { "1": 0, "2": 30, "3": 35, "4": 50, "5": 50, "6": 50, "7": 50, "8": 55, "9": 60, "10": 65, "11": 70, "12": 75, "13": 80, "14": 85, "15": 90 },
+      "afterLastListedYear": 90,
+      "lastYear": 95
+    },
+    {
+      "id": "SSV-PLACEHOLDER",
+      "label": "Special surrender value, % of premiums paid (placeholder for A-SSV)",
+      "note": "Placeholder. Only year 1 is stated (15%); later years fall back to the guaranteed value, which is higher.",
+      "byYear": { "1": 15 },
+      "afterLastListedYear": 0,
+      "lastYear": 0
+    }
+  ],
+  "earlyYearsForCopy": [2, 7],
+  "cardDisplayYears": [1, 2, 3, 5, 7]
+}

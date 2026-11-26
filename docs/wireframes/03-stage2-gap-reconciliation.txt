@@ -1,0 +1,177 @@
+INSURANCE
+Verdict
+2
+Refined gap
+optional
+3
+Options
+optional
+4
+Advisor
+optional
+Judge's guide
+Likely underinsured
+Detailed result
+FR-9.1
+Your family would need about
+₹2.39 Cr
+more life cover
+
+That would clear the home loan, keep the household running for 20 years and fund the children's education and other goals. It already counts the ₹46 L of cover you have and the ₹12 L of savings you set aside.
+
+See what fits this gap
+Talk to an advisor
+NEEDS-BASED ESTIMATE
+₹2.97 Cr
+What your family's costs and goals add up to. We use this one.
+INCOME-BASED ESTIMATE
+₹2.75 Cr
+What your future earnings are worth in today's money.
+
+Your family's needs are higher than the income-based estimate. We don't cut your need down to match; an advisor can talk through options. FR-2.7
+
+Estimated insurer limit: ₹4.5 Cr (25 times income at ages 30 to 39). Your gap fits within it. FR-2.6
+
+How the income-based estimate works
+How we got to ₹2.39 Cr
+FR-2.8 · FR-2.10
+
+Tap any bar to see exactly how it was worked out.
+
+WHAT YOUR FAMILY NEEDS
+TOTAL
+ALREADY IN PLACE
+GAP
+₹45 L
+Home loan
+₹1.32 Cr
+Living costs
+₹50 L
+Education
+₹20 L
+Marriage goals
+₹10 L
+Health & emergency
+₹40 L
+Spouse retirement
+₹2.97 Cr
+Total need
+− ₹10 L
+Your policies
+− ₹36 L
+Employer cover
+− ₹12 L
+Savings set aside
+₹2.39 Cr
+Your gap
+
+Check: ₹2.97 Cr − ₹10 L − ₹36 L − ₹12 L = ₹2.39 Cr. The bars always add up to the gap (property test P6).
+
+SHOW HOW THIS IS CALCULATED
+Family living costs
+₹1,31,91,000
+
+Keeps the household running for 20 years at today's prices, after taking out your own spending.
+
+Real rate = (1 + 7%) ÷ (1 + 6%) − 1 = 0.943%
+Factor (annuity due, 20 years) = 18.32
+₹7,20,000 × 18.32 = ₹1,31,91,000
+Family costs a year, without your spending
+₹7,20,000
+You · Stage 2
+Years of support
+20
+A-LC-YEARS
+Prices rise each year
+6%
+A-INFL
+Return on money set aside
+7%
+A-DISC
+Timing
+First year needed now
+A-TIMING
+Source: config v2026.11-s1 · session s_7f3c (anonymous)
+Your details
+Every section is optional
+Loans
+Home loan ₹45,00,000
+Edit
+Family costs
+₹7,20,000 a year without your own spending, for 20 years
+Edit
+Goals
+Education ₹50 L · Marriage ₹20 L · Health & emergency ₹10 L · Spouse retirement ₹40 L
+Edit
+Existing cover
+Your own: endowment plan, paid on death ₹10,00,000
+From your employer: group cover ₹36,00,000
+We use the amount paid on death, not maturity value or premiums.
+What if I change jobs?
+Savings set aside for needs
+Mutual funds ₹8,00,000 → education · Fixed deposit ₹4,00,000 → home loan
+EPF ₹9,00,000 → not used (retirement money is left out by default)
+Each savings pot can only be used once. FR-2.5
+Edit
+Income history · skipped
+Salaried, so we used this year's income. Self-employed? Add 3 years and we'll use the lower of the average and the latest year.
+Add
+Adjust assumptions
+Reset to defaults
+
+Opens as a side drawer. Each change shows its effect on your gap. FR-2.9 · FR-9.4
+
+Prices rise each year
+A-INFL
+−
+6%
++
+Return on money set aside
+A-DISC
+−
+7%
++
+Your income grows each year
+A-GROWTH
+−
+5%
++
+Retirement age
+A-RETAGE
+−
+60
++
+Your own share of spending
+A-EXP-SHARE
+−
+25%
++
+Years of family support
+A-LC-YEARS
+−
+20
++
+
+Defaults are placeholders for a finance reviewer to confirm, not industry standards.
+
+Why ₹2.39 Cr and not ₹1 Cr?
+FR-2.11 · promoted to P0
+What ₹1 Cr would cover
+Home loan ₹45 L
+About 7½ years of family costs
+
+Then the money runs out. Still unfunded: the last 12½ years of living costs, education (₹50 L), marriage goals (₹20 L), the health fund (₹10 L) and your spouse's retirement (₹40 L).
+
+If an assumption changes
+CHANGE	LOWER	HIGHER
+Years of family support (15 / 25)	₹2.08 Cr	₹2.68 Cr
+Prices rise each year (5% / 7%)	₹2.28 Cr	₹2.51 Cr
+Employer cover (kept / lost)	₹2.39 Cr	₹2.75 Cr
+Spouse retirement goal (left out)	₹1.99 Cr	—
+
+Base case ₹2.39 Cr. Each row changes one thing and keeps everything else as entered.
+
+Save summary (PDF)
+See what fits this gap
+
+Educational calculator, not financial advice. Figures use sample data and placeholder assumptions (config v2026.11-s1). Rounded for display; full precision is kept internally. FR-8.3
