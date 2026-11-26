@@ -1,5 +1,6 @@
 {
-  "brand": "Needs Finder",
+  "brand": "Famsurance",
+  "tagline": "Protect what matters",
   "stepper": [
     { "id": "verdict", "label": "Verdict", "href": "/estimate", "optional": false },
     { "id": "gap", "label": "Refined gap", "href": "/gap", "optional": true },

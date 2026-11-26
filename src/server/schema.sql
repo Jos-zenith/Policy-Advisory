@@ -1,4 +1,4 @@
--- Needs Finder schema (CLAUDE.md §11). SQLite via better-sqlite3.
+-- Famsurance schema (CLAUDE.md §11). SQLite via better-sqlite3.
 PRAGMA foreign_keys = ON;
 
 CREATE TABLE IF NOT EXISTS sessions (

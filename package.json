@@ -1,8 +1,8 @@
 {
-  "name": "needs-finder",
+  "name": "famsurance",
   "version": "0.1.0",
   "private": true,
-  "description": "Needs Finder: life insurance needs, gap and advisory journey (hackathon selection build, sample data).",
+  "description": "Famsurance (Protect what matters): life insurance needs, gap and advisory journey (hackathon build, sample data).",
   "engines": {
     "node": ">=20"
   },

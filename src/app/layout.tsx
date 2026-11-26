@@ -11,8 +11,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "sw
 const mono = JetBrains_Mono({ subsets: ["latin"], weight: ["400", "500"], variable: "--font-jetbrains", display: "swap" });
 
 export const metadata: Metadata = {
-  title: { default: "Needs Finder · Could your family carry on without you?", template: "%s · Needs Finder" },
-  description: "Know your family's life-cover gap before you see a price. Educational calculator with sample data.",
+  title: { default: "Famsurance · Protect what matters", template: "%s · Famsurance" },
+  description: "Famsurance: protect what matters. Know your family's life-cover gap before you see a price. Educational calculator with sample data.",
   robots: { index: false, follow: false },
 };
 

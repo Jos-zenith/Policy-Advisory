@@ -40,7 +40,7 @@ function Inner() {
         </Button>
       </div>
       <article className="card p-6 md:p-10">
-        <p className="eyebrow">Needs Finder · summary</p>
+        <p className="eyebrow">Famsurance · Protect what matters · summary</p>
         <h1 className="mt-2 font-display text-3xl font-bold">Could your family carry on without you?</h1>
         <p className="mt-2 text-sm text-muted-2">
           Printed {printedAt} IST · anonymous session {sessionId} · config {CONFIG_VERSION}. No name, phone or email is included.

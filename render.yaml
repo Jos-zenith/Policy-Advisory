@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: needs-finder
+    name: famsurance
     runtime: docker
     plan: starter
     autoDeploy: true
@@ -11,6 +11,6 @@ services:
       - key: DATA_KEY
         generateValue: true
     disk:
-      name: needs-finder-data
+      name: famsurance-data
       mountPath: /data
       sizeGB: 1

@@ -1,4 +1,4 @@
-# Needs Finder: Next.js standalone build with SQLite on a persistent volume at /data.
+# Famsurance: Next.js standalone build with SQLite on a persistent volume at /data.
 FROM node:22-bookworm-slim AS deps
 WORKDIR /app
 # better-sqlite3 builds a native module
