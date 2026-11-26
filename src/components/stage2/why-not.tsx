@@ -15,7 +15,7 @@ export function WhyNot({ gap, sens }: { gap: number; sens: SensitivityResult }) 
         </h2>
         <Trace id={["FR-2.11", "promoted to P0"]} />
       </div>
-      <div className="mt-6 grid gap-8 lg:grid-cols-2">
+      <div className="mt-6 grid gap-8 lg:grid-cols-2 [&>*]:min-w-0">
         {rw && gap > 0 ? (
           <div>
             <h3 className="font-semibold">What {inr(rw.amount)} would cover on its own</h3>

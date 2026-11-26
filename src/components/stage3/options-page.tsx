@@ -46,7 +46,7 @@ function Inner() {
         r.quote!.tableId,
         { coalesce: true },
       );
-    }, 1000);
+    }, 400);
     return () => clearTimeout(t);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selKey]);

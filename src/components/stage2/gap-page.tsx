@@ -143,11 +143,11 @@ function Inner() {
   const bars = useMemo(() => (an ? buildBars(an) : []), [an]);
   const selected = bars.find((b) => b.id === selectedId) ?? bars.find((b) => b.id === "need.LIVING") ?? bars[0];
 
-  // Decision trail (buffered client-side until booking): calc.result + flags, debounced.
+  // Decision trail (buffered client-side until booking): calc.result (coalesced while editing) + new flags.
   const logKey = an ? `${Math.round(an.recon.gap)}|${an.flags.map((f) => f.id).join(",")}` : null;
   useEffect(() => {
     if (!an) return;
-    const t = setTimeout(() => {
+    {
       log(
         "calc.result",
         { summary: `Need ${inrExact(an.needs.gross)} − offsets ${inrExact(an.recon.totalOffsets)} = gap ${inrExact(an.recon.gap)}; HLV ${inrExact(an.hlv.value)}`, need: an.needs.gross, offsets: an.recon.totalOffsets, gap: an.recon.gap, hlv: an.hlv.value },
@@ -161,8 +161,7 @@ function Inner() {
           .map((e) => String(e.detail.flag)),
       );
       for (const f of an.flags) if (!already.has(f.id)) log("flag.raised", { flag: f.id, summary: renderStep(f.message) }, f.traceId);
-    }, 800);
-    return () => clearTimeout(t);
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [logKey]);
 

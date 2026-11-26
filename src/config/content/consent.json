@@ -1,0 +1,13 @@
+{
+  "configVersion": "v2026.11-s1",
+  "version": "v1.2",
+  "items": [
+    { "id": "prepare", "lead": "Use my answers to prepare my summary.", "body": "Your income, loans and cover are used only to build the one-page summary." },
+    { "id": "share", "lead": "Share my summary with {advisor} for this call.", "body": "They can see it until 7 days after the call. Every view is logged." },
+    { "id": "contact", "lead": "Contact me about this call", "body": "by phone or SMS. No marketing." }
+  ],
+  "footer": "Consent text v1.2. You can withdraw any consent, or ask us to correct or delete your data, at any time.",
+  "preview": "They will receive your gap, assumptions, chosen option and reality-check result.",
+  "raceNote": "If someone takes this time first, we'll show the next free times. A double click still makes one booking.",
+  "advisorNote": "Only advisors with a verified, in-date licence are shown. Struck-through times are already booked."
+}

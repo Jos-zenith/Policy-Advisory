@@ -17,3 +17,5 @@ export * from "./premium";
 export * from "./eligibility";
 export * from "./surrender";
 export * from "./rules";
+export * from "./comprehension";
+export * from "./handoff";

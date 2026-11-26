@@ -53,6 +53,10 @@
   button:disabled {
     cursor: not-allowed;
   }
+  /* Grid items never stretch past their track (wide tables scroll inside their own container). */
+  .grid > * {
+    min-width: 0;
+  }
 }
 
 @layer components {
