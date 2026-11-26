@@ -1,0 +1,27 @@
+{
+  "entity": "rates",
+  "_note": "Template. One row per rate cell (long format). Declared dims must match the key columns mapped below.",
+  "source": { "file": "rates.csv" },
+  "columns": {
+    "Product Code": "productId",
+    "Age": "key.age",
+    "Gender": "key.sex",
+    "Smoker": "key.smoker",
+    "Policy Term": "key.term",
+    "SA Band": "key.coverBand",
+    "Rate per 1000": "ratePer1000"
+  },
+  "valueMaps": {
+    "key.sex": { "Male": "M", "M": "M", "Female": "F", "F": "F" },
+    "key.smoker": { "Yes": "Y", "Y": "Y", "Smoker": "Y", "No": "N", "N": "N", "Non-smoker": "N" }
+  },
+  "transforms": { "key.age": "number", "key.term": "number", "ratePer1000": "number" },
+  "rates": {
+    "dims": ["age", "sex", "smoker", "term", "coverBand"],
+    "tableIdTemplate": "RT-{productId}",
+    "coverBands": [
+      { "id": "B-LT1CR", "min": 2500000, "max": 9999999, "label": "below ₹1 Cr" },
+      { "id": "B-1CR", "min": 10000000, "max": 1000000000, "label": "₹1 Cr and above" }
+    ]
+  }
+}

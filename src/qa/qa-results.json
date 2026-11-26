@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T09:22:27.048Z",
+  "generatedAt": "2026-11-26T09:32:52.285Z",
   "configVersion": "v2026.11-s1",
   "catalogVersion": "sample-2026.11",
   "dataSource": "generated",
@@ -43,5 +43,5 @@
     "pricedRecommendations": 143,
     "exactRateCells": 116
   },
-  "durationMs": 120
+  "durationMs": 129
 }

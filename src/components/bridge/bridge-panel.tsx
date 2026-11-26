@@ -333,7 +333,7 @@ function BridgeBody({ r, ep, prodName, tableId, age, term, chosen, onChoose }: {
             </ul>
             <p className="mt-4 rounded-2xl bg-white/10 p-3 text-[14px] font-medium">{renderStep(r.warning)}</p>
             <p className="mt-2 text-[12px] text-white/70">
-              Rule {r.suggestionRule}: keep and add term if both premiums fit your budget; otherwise paid-up; otherwise stop. <Trace id={r.suggestionRule} className="bg-white/15 text-white" />
+              How we choose: keep it and add term if both premiums fit your budget; otherwise make it paid-up; otherwise stop it. <Trace id={r.suggestionRule} className="bg-white/15 text-white" />
             </p>
             <Button variant="light" className="mt-4" onClick={() => setQueryParam("panel", null)}>
               See term options

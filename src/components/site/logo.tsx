@@ -10,7 +10,7 @@ export function Logo({ dark = false }: { dark?: boolean }) {
         <circle cx="18" cy="18" r="8" fill="#fff" />
         <circle cx="18" cy="18" r="4.5" fill="#0e1530" />
       </svg>
-      <span className={cn("font-display text-[17px] font-bold tracking-[0.02em] md:text-lg", dark ? "text-white" : "text-ink")}>{ui.brand}</span>
+      <span className={cn("font-display text-[17px] font-bold tracking-[0.02em] max-[399px]:sr-only md:text-lg", dark ? "text-white" : "text-ink")}>{ui.brand}</span>
     </span>
   );
 }

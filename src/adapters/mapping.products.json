@@ -1,0 +1,31 @@
+{
+  "entity": "products",
+  "_note": "Template. On reveal day, change the left-hand column names to match the provided file; canonical paths on the right stay the same.",
+  "source": { "file": "products.csv" },
+  "columns": {
+    "Product Code": "id",
+    "Product Name": "name",
+    "Product Type": "category",
+    "Min Entry Age": "entryAge.0",
+    "Max Entry Age": "entryAge.1",
+    "Max Maturity Age": "maxMaturityAge",
+    "Min Term": "term.0",
+    "Max Term": "term.1",
+    "Min Sum Assured": "cover.0",
+    "Max Sum Assured": "cover.1",
+    "Savings Share": "savingsShare",
+    "Purpose": "problemSolved",
+    "Surrender Schedule": "surrenderScheduleId",
+    "Lock In Years": "lockInYears",
+    "Rate Table": "rateTableId",
+    "Cover To Age": "coverToAge"
+  },
+  "valueMaps": {
+    "category": { "Term": "TERM", "Term Life": "TERM", "Whole Life": "WHOLE_LIFE", "Endowment": "ENDOWMENT", "ULIP": "ULIP", "Unit Linked": "ULIP" }
+  },
+  "transforms": {
+    "entryAge.0": "number", "entryAge.1": "number", "maxMaturityAge": "number", "term.0": "number", "term.1": "number",
+    "cover.0": "number", "cover.1": "number", "savingsShare": "number", "lockInYears": "number", "coverToAge": "number"
+  },
+  "constants": { "isSample": false, "riders": [], "savingsShare": 0 }
+}

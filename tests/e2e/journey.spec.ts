@@ -157,3 +157,16 @@ test.describe("390px viewport", () => {
     await noHorizontalScroll(page);
   });
 });
+
+test.describe("360px viewport", () => {
+  test.use({ viewport: { width: 360, height: 780 } });
+  test("no horizontal page scroll on any journey or judges page", async ({ page }) => {
+    await page.goto("/estimate");
+    await page.getByRole("button", { name: /^Arjun/ }).click();
+    for (const path of ["/", "/estimate", "/gap", "/options", "/options?panel=policy", "/options?book=1", "/summary", "/judges", "/judges/states", "/judges/qa", "/advisor"]) {
+      await page.goto(path);
+      await page.waitForLoadState("networkidle");
+      await noHorizontalScroll(page);
+    }
+  });
+});

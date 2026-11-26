@@ -7,7 +7,7 @@ type DB = Database.Database;
 const g = globalThis as unknown as { __nfDb?: DB; __nfDbPath?: string };
 
 export function dbPath(): string {
-  return path.resolve(process.env.DATABASE_PATH || "./data/app.db");
+  return path.resolve(/* turbopackIgnore: true */ process.env.DATABASE_PATH || "./data/app.db");
 }
 
 /** Singleton connection. WAL + busy timeout so parallel requests serialise on BEGIN IMMEDIATE. */
@@ -27,7 +27,7 @@ export function getDb(): DB {
 
 /** For tests: open an isolated database at a given path. */
 export function openDb(file: string): DB {
-  fs.mkdirSync(path.dirname(path.resolve(file)), { recursive: true });
+  fs.mkdirSync(path.dirname(path.resolve(/* turbopackIgnore: true */ file)), { recursive: true });
   const db = new Database(file);
   db.pragma("journal_mode = WAL");
   db.pragma("busy_timeout = 5000");

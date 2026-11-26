@@ -122,8 +122,9 @@ export function SiteHeader() {
         <div className="flex shrink-0 items-center gap-1 sm:gap-3">
           <JudgeToggle />
           {isJudges ? (
-            <Link href="/?judge=1" className="rounded-full bg-ink px-4 py-2 text-sm font-medium text-white">
-              Start the demo
+            <Link href="/?judge=1" className="whitespace-nowrap rounded-full bg-ink px-3 py-2 text-sm font-medium text-white sm:px-4">
+              <span className="sm:hidden">Demo</span>
+              <span className="hidden sm:inline">Start the demo</span>
             </Link>
           ) : (
             <Link href="/judges" className="hidden text-[15px] font-medium text-blue underline underline-offset-4 sm:inline">

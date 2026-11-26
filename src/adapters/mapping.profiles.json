@@ -1,0 +1,51 @@
+{
+  "entity": "profiles",
+  "_note": "Template. One row per customer profile. Unused loan/goal/cover columns are pruned.",
+  "source": { "file": "profiles.csv" },
+  "columns": {
+    "Profile ID": "id",
+    "Age": "age",
+    "Gender": "sex",
+    "Smoker": "smoker",
+    "Income Y1": "incomeHistory.0",
+    "Income Y2": "incomeHistory.1",
+    "Income Y3": "incomeHistory.2",
+    "Employment": "incomeBasis",
+    "Home Loan": "loans.0.outstanding",
+    "Other Loans": "loans.1.outstanding",
+    "Family Expenses": "familyCostsPerYear",
+    "Education Goal": "goals.0.amount",
+    "Marriage Goal": "goals.1.amount",
+    "Emergency Fund": "goals.2.amount",
+    "Spouse Retirement": "goals.3.amount",
+    "Own Life Cover": "existingCover.0.deathSumAssured",
+    "Employer Cover": "existingCover.1.deathSumAssured",
+    "Liquid Savings": "assets.0.value",
+    "Retirement Savings": "assets.1.value"
+  },
+  "valueMaps": {
+    "sex": { "Male": "M", "Female": "F", "M": "M", "F": "F" },
+    "incomeBasis": { "Salaried": "SALARIED", "Self-employed": "SELF_EMPLOYED", "Self Employed": "SELF_EMPLOYED", "Business": "SELF_EMPLOYED" }
+  },
+  "transforms": {
+    "age": "number", "smoker": "boolean", "incomeHistory.0": "number", "incomeHistory.1": "number", "incomeHistory.2": "number",
+    "loans.0.outstanding": "number", "loans.1.outstanding": "number", "familyCostsPerYear": "number",
+    "goals.0.amount": "number", "goals.1.amount": "number", "goals.2.amount": "number", "goals.3.amount": "number",
+    "existingCover.0.deathSumAssured": "number", "existingCover.1.deathSumAssured": "number", "assets.0.value": "number", "assets.1.value": "number"
+  },
+  "constants": {
+    "incomeBasis": "SALARIED",
+    "dependants": [{ "relation": "Family" }],
+    "loans": [{ "label": "Home loan" }, { "label": "Other loan" }],
+    "goals": [{ "kind": "EDUCATION" }, { "kind": "MARRIAGE" }, { "kind": "HEALTH_EMERGENCY" }, { "kind": "SPOUSE_RETIREMENT" }],
+    "existingCover": [{ "kind": "OWN", "label": "Own policy" }, { "kind": "EMPLOYER", "label": "Group cover" }],
+    "assets": [{ "label": "Savings", "kind": "LIQUID", "allocatedTo": null }, { "label": "Retirement savings", "kind": "RETIREMENT", "allocatedTo": null }]
+  },
+  "pruneEmpty": [
+    { "array": "incomeHistory", "field": "__self__" },
+    { "array": "loans", "field": "outstanding" },
+    { "array": "goals", "field": "amount" },
+    { "array": "existingCover", "field": "deathSumAssured" },
+    { "array": "assets", "field": "value" }
+  ]
+}

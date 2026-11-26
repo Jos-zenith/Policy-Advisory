@@ -1,0 +1,15 @@
+{
+  "entity": "advisors",
+  "_note": "Template. Languages and specialities may be separated by ; , or |.",
+  "source": { "file": "advisors.csv" },
+  "columns": {
+    "Advisor ID": "id",
+    "Name": "name",
+    "Languages": "languages",
+    "Specialities": "specialities",
+    "Licence No": "licenceRef",
+    "Licence Valid To": "licenceValidTo"
+  },
+  "transforms": { "languages": "splitList", "specialities": "splitList", "licenceValidTo": "isoDate" },
+  "constants": { "isSample": false, "specialities": [] }
+}

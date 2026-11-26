@@ -8,7 +8,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const dir = () => path.join(process.cwd(), "src/qa");
+const dir = () => path.join(/* turbopackIgnore: true */ process.cwd(), "src/qa");
 
 function readJson<T>(name: string): { data: T; mtime: string } | null {
   const f = path.join(dir(), name);

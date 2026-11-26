@@ -14,7 +14,10 @@ export const SLOT_MINUTES = 30;
 type Pattern = { time: string; booked?: boolean }[];
 
 export function generateSlots(now: Date, workingDays = 10): Slot[] {
-  const patterns = advisorsJson.slotPatterns as Record<string, Pattern>;
+  // Advisors imported on reveal day may have no pattern yet: give them a default day.
+  const DEFAULT: Pattern = [{ time: "10:00" }, { time: "11:30" }, { time: "15:00" }];
+  const given = (advisorsJson.slotPatterns ?? {}) as Record<string, Pattern>;
+  const patterns: Record<string, Pattern> = Object.fromEntries(advisorsJson.advisors.map((a) => [a.id, given[a.id] ?? DEFAULT]));
   const todayIst = toZonedTime(now, TZ);
   const out: Slot[] = [];
   let d = addDays(todayIst, 1);

@@ -55,7 +55,7 @@
         "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
         "timeout": 90000,
         "use": {
-          "baseURL": "http://localhost:3005",
+          "baseURL": "http://localhost:3100",
           "trace": "retain-on-failure",
           "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Safari/537.36",
           "viewport": {
@@ -99,7 +99,18 @@
     "updateSourceMethod": "patch",
     "version": "1.65.1",
     "workers": 1,
-    "webServer": null
+    "webServer": {
+      "command": "npm run seed && npx next start -p 3100",
+      "url": "http://localhost:3100/api/health",
+      "reuseExistingServer": false,
+      "timeout": 180000,
+      "env": {
+        "DATABASE_PATH": "./data/e2e.db",
+        "DATA_KEY": "e2e-test-key-not-secret-0123456789abcdef",
+        "SEED_RESET": "1",
+        "ALLOW_DEV_KEY": "1"
+      }
+    }
   },
   "suites": [
     {
@@ -124,12 +135,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5288,
+                  "duration": 3848,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-26T09:17:30.608Z",
+                  "startTime": "2026-11-26T09:32:27.060Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -158,12 +169,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 139,
+                  "duration": 68,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-26T09:17:36.029Z",
+                  "startTime": "2026-11-26T09:32:31.047Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -192,12 +203,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 123,
+                  "duration": 54,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-26T09:17:36.178Z",
+                  "startTime": "2026-11-26T09:32:31.126Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -226,12 +237,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2289,
+                  "duration": 1500,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-26T09:17:36.310Z",
+                  "startTime": "2026-11-26T09:32:31.191Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -260,12 +271,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1488,
+                  "duration": 1068,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-26T09:17:38.612Z",
+                  "startTime": "2026-11-26T09:32:32.702Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -302,12 +313,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2684,
+                      "duration": 1910,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-26T09:17:40.112Z",
+                      "startTime": "2026-11-26T09:32:33.787Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -321,15 +332,57 @@
               "column": 3
             }
           ]
+        },
+        {
+          "title": "360px viewport",
+          "file": "journey.spec.ts",
+          "line": 161,
+          "column": 6,
+          "specs": [
+            {
+              "title": "no horizontal page scroll on any journey or judges page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7708,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-26T09:32:35.709Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bf222bad70f76648f722-b1489cc3b3a27e55c6d2",
+              "file": "journey.spec.ts",
+              "line": 163,
+              "column": 3
+            }
+          ]
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-26T09:17:30.156Z",
-    "duration": 12815.568,
-    "expected": 6,
+    "startTime": "2026-11-26T09:32:21.346Z",
+    "duration": 22705.97,
+    "expected": 7,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
