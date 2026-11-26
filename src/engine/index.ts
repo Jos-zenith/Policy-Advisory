@@ -19,3 +19,4 @@ export * from "./surrender";
 export * from "./rules";
 export * from "./comprehension";
 export * from "./handoff";
+export * from "./bridge";
