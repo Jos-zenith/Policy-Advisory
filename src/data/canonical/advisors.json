@@ -1,0 +1,21 @@
+{
+  "version": "sample-2026.11",
+  "isSample": true,
+  "note": "Fictional advisors and licence numbers. Replaced on reveal day by `npm run import:advisors`.",
+  "advisors": [
+    { "id": "ADV-PR", "name": "Priya Raman", "languages": ["English", "Tamil", "Hindi"], "specialities": ["Protection planning"], "licenceRef": "IRDAI-SAMPLE-0142", "licenceValidTo": "2027-06-30", "isSample": true },
+    { "id": "ADV-AK", "name": "Arvind Kulkarni", "languages": ["Marathi", "Hindi", "English"], "specialities": ["Existing policy review"], "licenceRef": "IRDAI-SAMPLE-0457", "licenceValidTo": "2027-03-31", "isSample": true },
+    { "id": "ADV-FS", "name": "Fatima Sheikh", "languages": ["Hindi", "Urdu", "English"], "specialities": ["Business owners, irregular income"], "licenceRef": "IRDAI-SAMPLE-0611", "licenceValidTo": "2026-12-31", "isSample": true },
+    { "id": "ADV-JM", "name": "Joseph Mathew", "languages": ["Malayalam", "English"], "specialities": ["Protection planning"], "licenceRef": "IRDAI-SAMPLE-0733", "licenceValidTo": "2027-08-31", "isSample": true },
+    { "id": "ADV-SD", "name": "Sunita Das", "languages": ["Bengali", "Hindi", "English"], "specialities": ["Protection planning", "Existing policy review"], "licenceRef": "IRDAI-SAMPLE-0815", "licenceValidTo": "2027-09-30", "isSample": true },
+    { "id": "ADV-RV", "name": "Rahul Verma", "languages": ["Hindi", "English"], "specialities": ["Protection planning"], "licenceRef": "IRDAI-SAMPLE-0920", "licenceValidTo": "2026-10-31", "isSample": true }
+  ],
+  "slotPatterns": {
+    "ADV-PR": [{ "time": "10:00", "booked": true }, { "time": "11:00" }, { "time": "14:30" }, { "time": "16:00" }],
+    "ADV-AK": [{ "time": "09:30" }, { "time": "12:00", "booked": true }, { "time": "15:00" }],
+    "ADV-FS": [{ "time": "11:30" }, { "time": "17:00", "booked": true }],
+    "ADV-JM": [{ "time": "10:30" }, { "time": "13:00" }],
+    "ADV-SD": [{ "time": "10:00" }, { "time": "15:30" }],
+    "ADV-RV": [{ "time": "11:00" }, { "time": "14:00" }]
+  }
+}
