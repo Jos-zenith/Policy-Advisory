@@ -166,6 +166,7 @@ export interface EngineConfig {
     schedules: SurrenderSchedule[];
     earlyYearsForCopy: [number, number];
     cardDisplayYears: number[];
+    cardIllustrationPremium: number;
     illustrative: boolean;
   };
   rules: {

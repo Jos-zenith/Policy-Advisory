@@ -25,6 +25,7 @@ export const ENGINE_CONFIG: EngineConfig = {
     schedules: surrenderJson.schedules as EngineConfig["surrender"]["schedules"],
     earlyYearsForCopy: surrenderJson.earlyYearsForCopy as [number, number],
     cardDisplayYears: surrenderJson.cardDisplayYears,
+    cardIllustrationPremium: surrenderJson.cardIllustrationPremium,
     illustrative: surrenderJson.illustrative,
   },
   rules: rulesJson as unknown as EngineConfig["rules"],
