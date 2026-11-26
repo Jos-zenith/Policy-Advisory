@@ -2,11 +2,11 @@
 
 **PROTECT WHAT MATTERS**
 
-A responsive web app that helps an everyday customer work out how much life cover their family actually needs, see which policy type fits that need, explore premium and tenure trade-offs, and book a qualified advisor, with every number traceable.
+An app that helps an everyday customer work out how much life cover their family actually needs, see which policy type fits that need, explore premium and tenure trade-offs, and book a qualified advisor, with every number traceable.
 
 > Every other flow asks *"what do you want to buy?"*. Famsurance asks *"can your family carry on without you?"* first.
 
-Built for the hackathon problem *Intelligent Life Insurance Needs Finder & Digital Advisory Platform*, from PRD v1.0 (26 November 2026). This is an MVP running on **clearly labelled sample data** until the provided products, profiles and advisors are released. It is an educational calculator and appointment scheduler, **not financial advice**.
+Built for the problem *Intelligent Life Insurance Needs Finder & Digital Advisory Platform*. This is an MVP running on **clearly labelled sample data** until the provided products, profiles and advisors are released. It is an educational calculator and appointment scheduler, **not financial advice**.
 
 ---
 
@@ -49,7 +49,7 @@ Every rung after the first is optional, and the user can stop with a useful answ
 
 The result is labelled **Basic**, **Refined** or **Detailed**, and lists what was skipped and which way that could move the gap. Alongside the journey there is an advisor and compliance workspace (`/advisor`) and a judges' area (`/judges`, `/judges/states`, `/judges/qa`).
 
-## What is built, mapped to the PRD
+## What is built
 
 | Area | PRD | Status |
 |---|---|---|
@@ -120,7 +120,7 @@ Gap  = Need − own death cover − employer cover − savings allocated to need
 
 `/judges/qa` renders these results from the files the test scripts write; nothing on it is typed by hand.
 
-## Privacy, consent and audit (PRD §6.1)
+## Privacy, consent and audit
 
 - **No personal data before booking.** Stages 1 to 3 use an anonymous session ID and keep answers in the browser. The journey's decision events reach the server only when the customer books and consents.
 - **Separate consents** for preparing the summary, sharing it with the named advisor, and being contacted. Each records the consent text version and a timestamp.
@@ -177,8 +177,6 @@ Finish on `/judges/states` (every decision state, computed live) and `/judges/qa
 | `npm run typecheck` / `lint` / `ci` | Strict TypeScript, ESLint, and all checks together |
 | `npm run import:products\|rates\|profiles\|advisors` | Reveal-day data import (below) |
 
-**Windows note:** run the tests from a path with an upper-case drive letter (`D:\…`). With a lower-case `d:\` working directory, Vitest loads twice and reports "no test suite found".
-
 ## Reveal day: swapping in the provided data
 
 The 14 products and rate tables, 200 profiles and 15 advisors replace the sample files through adapters. The calculation engine, rules and UI don't change.
@@ -205,7 +203,7 @@ If the provided tables include surrender values, add them as a schedule in `src/
 
 **Deploy:** `docker build -t famsurance .` then `docker run -p 3000:3000 -e DATA_KEY=… -v famsurance-data:/data famsurance`. The container seeds its own volume when it starts. `render.yaml` defines the same service on Render with a persistent disk at `/data`.
 
-## Who it is for: business model hypothesis (PRD §3.4)
+## Who it is for: business model hypothesis
 
 **B2B2C.** A financial institution licenses Famsurance and offers it to its own customers. That could be an insurer, a bank or NBFC at loan origination, or an employer benefits programme. The institution is the buyer; the customer and the advisor are the users.
 
