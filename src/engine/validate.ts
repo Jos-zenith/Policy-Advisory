@@ -88,3 +88,20 @@ export function validateProfile(p: Profile, a: Assumptions, config: EngineConfig
   issues.push(...validateAssumptions(a));
   return issues;
 }
+
+/* ------------------------------------------------------------------ */
+/* Existing cover entry (V-COVER-01, TC-13)                             */
+/* ------------------------------------------------------------------ */
+
+export type CoverAmountType = "DEATH" | "MATURITY" | "PREMIUM";
+
+export const COVER_PROMPT = "We use the amount paid on death, not maturity value or premiums.";
+
+/**
+ * Existing cover accepts the death sum assured only. A maturity value or a
+ * premium is rejected with the V-COVER-01 prompt; the caller logs it to the trail.
+ */
+export function acceptCoverEntry(entry: { amount: number; amountType: CoverAmountType }): { accepted: true } | { accepted: false; code: "V-COVER-01"; message: string } {
+  if (entry.amountType !== "DEATH") return { accepted: false, code: "V-COVER-01", message: COVER_PROMPT };
+  return { accepted: true };
+}
