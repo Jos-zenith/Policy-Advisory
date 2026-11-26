@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-11-26T09:22:27.048Z",
+  "configVersion": "v2026.11-s1",
+  "catalogVersion": "sample-2026.11",
+  "dataSource": "generated",
+  "dataLabel": "Generated, not the provided data",
+  "seed": 20261126,
+  "n": 200,
+  "valid": 193,
+  "invalid": 7,
+  "handled": 200,
+  "unhandled": 0,
+  "unhandledCases": [],
+  "byState": {
+    "R1": 143,
+    "NO_ELIGIBLE_TERM": 14,
+    "R4": 36
+  },
+  "byRecommendation": {
+    "TermSecure Plus": 129,
+    "SmartTerm Young": 6,
+    "Advisor (no eligible term product)": 14,
+    "Elite Term Max": 8,
+    "None (adequately covered)": 36
+  },
+  "fallbacks": {
+    "E-COVER": 381,
+    "E-AGE": 238,
+    "R4": 36,
+    "R3": 33,
+    "E-TERM": 10,
+    "R6": 20,
+    "R2": 3,
+    "R5": 3
+  },
+  "invalidCodes": {
+    "V-AGE-03": 7,
+    "V-AMT-02": 3
+  },
+  "checks": {
+    "reconciliationIdentityFailures": 0,
+    "p4Violations": 0,
+    "pricedRecommendations": 143,
+    "exactRateCells": 116
+  },
+  "durationMs": 120
+}

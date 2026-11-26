@@ -1,0 +1,8861 @@
+{
+ "source": "generated",
+ "label": "Generated, not the provided data",
+ "seed": 20261126,
+ "profiles": [
+  {
+   "id": "G-1",
+   "age": 27,
+   "smoker": false,
+   "incomeHistory": [
+    4500000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 9400000
+    }
+   ],
+   "goals": [],
+   "familyCostsPerYear": 1272255,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 6700000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 800000,
+     "kind": "LIQUID",
+     "allocatedTo": "LIVING"
+    }
+   ]
+  },
+  {
+   "id": "G-2",
+   "age": 52,
+   "smoker": false,
+   "incomeHistory": [
+    4675418,
+    4711904,
+    3900000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 600000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 700000
+    }
+   ],
+   "familyCostsPerYear": 1458110,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 13700000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 200000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-3",
+   "age": 29,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    600000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 200000
+    }
+   ],
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-4",
+   "age": 46,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    3600000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 3900000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 400000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 2500000
+    }
+   ],
+   "familyCostsPerYear": 1662330,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 12300000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 800000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    }
+   ]
+  },
+  {
+   "id": "G-5",
+   "age": 65,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    2200000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 2100000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 700000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 3500000
+    }
+   ],
+   "familyCostsPerYear": 998193,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 13800000,
+     "productCategory": "TERM"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 6600000
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-6",
+   "age": 28,
+   "sex": "F",
+   "smoker": true,
+   "incomeHistory": [
+    2592151,
+    3154250,
+    3400000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [],
+   "familyCostsPerYear": 878341,
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-7",
+   "age": 46,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    2700000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 1700000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 1800000
+    }
+   ],
+   "familyCostsPerYear": 1147694,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 2700000
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 600000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-8",
+   "age": 47,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    5300000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": true
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 4900000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 2000000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 4800000
+    }
+   ],
+   "familyCostsPerYear": 3014239,
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-9",
+   "age": 47,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    2500000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 1600000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 2600000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 4200000
+    }
+   ],
+   "familyCostsPerYear": 846833,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 3400000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-10",
+   "age": 55,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    2300000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 5400000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 2600000
+    }
+   ],
+   "familyCostsPerYear": 1015517,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 13200000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3400000,
+     "kind": "LIQUID",
+     "allocatedTo": "LIVING"
+    },
+    {
+     "label": "EPF",
+     "value": 4100000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-11",
+   "age": 23,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    3400000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 500000
+    }
+   ],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 10200000
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 1300000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-12",
+   "age": 27,
+   "smoker": false,
+   "incomeHistory": [
+    5137263,
+    3922596,
+    4400000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 3800000
+    }
+   ],
+   "goals": [],
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-13",
+   "age": 55,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    700000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 500000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 4500000
+    }
+   ],
+   "familyCostsPerYear": 201253,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 700000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3600000,
+     "kind": "LIQUID",
+     "allocatedTo": "EDUCATION"
+    },
+    {
+     "label": "EPF",
+     "value": 500000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-14",
+   "age": 60,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    4872395,
+    8433490,
+    5900000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [],
+   "loans": [],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 9300000,
+     "productCategory": "ENDOWMENT"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1800000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    },
+    {
+     "label": "EPF",
+     "value": 4800000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-15",
+   "age": 51,
+   "smoker": false,
+   "incomeHistory": [
+    3700000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 500000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 4700000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 700000
+    }
+   ],
+   "familyCostsPerYear": 1133894,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2600000,
+     "kind": "LIQUID",
+     "allocatedTo": "EDUCATION"
+    }
+   ]
+  },
+  {
+   "id": "G-16",
+   "age": 65,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    800000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 900000
+    }
+   ],
+   "goals": [],
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 2800000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-17",
+   "age": 46,
+   "sex": "F",
+   "smoker": true,
+   "incomeHistory": [
+    1300000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": true
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 1300000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 4800000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 2200000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 4600000
+    }
+   ],
+   "familyCostsPerYear": 475042,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 5500000,
+     "productCategory": "ENDOWMENT"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3700000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-18",
+   "age": 34,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    4700000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 400000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 4800000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 3400000
+    }
+   ],
+   "familyCostsPerYear": 2468145,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 9400000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2800000,
+     "kind": "LIQUID",
+     "allocatedTo": "EDUCATION"
+    },
+    {
+     "label": "EPF",
+     "value": 1800000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-19",
+   "age": 32,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    3300000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 4500000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 1300000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 2900000
+    }
+   ],
+   "familyCostsPerYear": 1358381,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 9900000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3000000,
+     "kind": "LIQUID",
+     "allocatedTo": "EDUCATION"
+    },
+    {
+     "label": "EPF",
+     "value": 1800000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-20",
+   "age": 41,
+   "smoker": false,
+   "incomeHistory": [
+    3127722,
+    2548971,
+    2100000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 9800000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 4200000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 5800000
+    }
+   ],
+   "familyCostsPerYear": 570315,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 3200000,
+     "productCategory": "ENDOWMENT"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3400000,
+     "kind": "LIQUID",
+     "allocatedTo": "EDUCATION"
+    }
+   ]
+  },
+  {
+   "id": "G-21",
+   "age": 29,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    1400000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 9900000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 2400000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 5000000
+    }
+   ],
+   "familyCostsPerYear": 716025,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 1400000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1200000,
+     "kind": "LIQUID",
+     "allocatedTo": "LIVING"
+    },
+    {
+     "label": "EPF",
+     "value": 3800000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-22",
+   "age": 41,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    4200000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 9200000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 300000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 5100000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 1000000
+    }
+   ],
+   "familyCostsPerYear": 1904414,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 6800000,
+     "productCategory": "TERM"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 8400000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 100000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    }
+   ]
+  },
+  {
+   "id": "G-23",
+   "age": 21,
+   "smoker": false,
+   "incomeHistory": [
+    900000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 2700000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 900000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 3800000
+    }
+   ],
+   "familyCostsPerYear": 282151,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 1800000
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 1000000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-24",
+   "age": 34,
+   "smoker": false,
+   "incomeHistory": [
+    5400000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": true
+    },
+    {
+     "relation": "Parent",
+     "lifelong": true
+    }
+   ],
+   "loans": [],
+   "goals": [],
+   "familyCostsPerYear": 2303294,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 12700000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 200000,
+     "kind": "LIQUID",
+     "allocatedTo": "LIVING"
+    },
+    {
+     "label": "EPF",
+     "value": 4600000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-25",
+   "age": 49,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    5400000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 1200000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 5800000
+    }
+   ],
+   "familyCostsPerYear": 3206263,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2200000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    },
+    {
+     "label": "EPF",
+     "value": 200000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-26",
+   "age": 56,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    2776883,
+    1386365,
+    2100000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 5500000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 3300000
+    }
+   ],
+   "familyCostsPerYear": 1075423,
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-27",
+   "age": 32,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    3200000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 10600000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 4800000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 5000000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 1000000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 2500000
+    }
+   ],
+   "familyCostsPerYear": 1595967,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 9700000,
+     "productCategory": "TERM"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 6400000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2400000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    }
+   ]
+  },
+  {
+   "id": "G-28",
+   "age": 80,
+   "incomeHistory": [
+    -200000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [],
+   "goals": [],
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-29",
+   "age": 21,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    2490360,
+    4294161,
+    2900000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [],
+   "familyCostsPerYear": 931399,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 2800000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 800000,
+     "kind": "LIQUID",
+     "allocatedTo": "LIVING"
+    }
+   ]
+  },
+  {
+   "id": "G-30",
+   "age": 45,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    3363658,
+    3766036,
+    3300000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 700000
+    }
+   ],
+   "goals": [],
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 300000,
+     "kind": "LIQUID",
+     "allocatedTo": "EDUCATION"
+    }
+   ]
+  },
+  {
+   "id": "G-31",
+   "age": 53,
+   "sex": "M",
+   "incomeHistory": [
+    3500000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 2300000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 4300000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 1700000
+    }
+   ],
+   "familyCostsPerYear": 2023492,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 13400000,
+     "productCategory": "TERM"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 3500000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 100000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    },
+    {
+     "label": "EPF",
+     "value": 1100000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-32",
+   "age": 51,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    5600000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 4100000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 1400000
+    }
+   ],
+   "familyCostsPerYear": 1866904,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 4100000,
+     "productCategory": "TERM"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 16800000
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-33",
+   "age": 68,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    2000000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 2000000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 3900000
+    }
+   ],
+   "familyCostsPerYear": 534446,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 2000000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1800000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    },
+    {
+     "label": "EPF",
+     "value": 2800000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-34",
+   "age": 33,
+   "smoker": false,
+   "incomeHistory": [
+    2300000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 5100000
+    }
+   ],
+   "familyCostsPerYear": 859332,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 6900000
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 600000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-35",
+   "age": 22,
+   "smoker": false,
+   "incomeHistory": [
+    1100000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 2700000
+    }
+   ],
+   "familyCostsPerYear": 515735,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 3300000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 700000,
+     "kind": "LIQUID",
+     "allocatedTo": "LIVING"
+    }
+   ]
+  },
+  {
+   "id": "G-36",
+   "age": 37,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    1074893,
+    803484,
+    1200000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 700000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 2800000
+    }
+   ],
+   "familyCostsPerYear": 620930,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 4100000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-37",
+   "age": 28,
+   "sex": "F",
+   "incomeHistory": [
+    5000000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 10500000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 3200000
+    }
+   ],
+   "familyCostsPerYear": 1440618,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3800000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    },
+    {
+     "label": "EPF",
+     "value": 1800000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-38",
+   "age": 34,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    1431228,
+    1171241,
+    1000000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 4300000
+    }
+   ],
+   "goals": [],
+   "familyCostsPerYear": 324558,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 14400000,
+     "productCategory": "ENDOWMENT"
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 3200000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-39",
+   "age": 37,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    2600000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 1000000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 2600000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 2600000
+    }
+   ],
+   "familyCostsPerYear": 1107223,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 1100000,
+     "productCategory": "ENDOWMENT"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 7800000
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 2800000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-40",
+   "age": 25,
+   "incomeHistory": [
+    500000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [],
+   "goals": [],
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-41",
+   "age": 43,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    4300000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 3000000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 700000
+    }
+   ],
+   "familyCostsPerYear": 1462250,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3800000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    }
+   ]
+  },
+  {
+   "id": "G-42",
+   "age": 48,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    5100000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 600000
+    }
+   ],
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2800000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    },
+    {
+     "label": "EPF",
+     "value": 400000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-43",
+   "age": 43,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    900000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 5200000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 2300000
+    }
+   ],
+   "familyCostsPerYear": 440549,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 10400000,
+     "productCategory": "TERM"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 1800000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1900000,
+     "kind": "LIQUID",
+     "allocatedTo": "EDUCATION"
+    }
+   ]
+  },
+  {
+   "id": "G-44",
+   "age": 20,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    2200000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": true
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 4200000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 2100000
+    }
+   ],
+   "familyCostsPerYear": 890941,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 6600000
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-45",
+   "age": 44,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    5500000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 2900000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 5700000
+    }
+   ],
+   "familyCostsPerYear": 2493806,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 5500000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3000000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    },
+    {
+     "label": "EPF",
+     "value": 3800000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-46",
+   "age": 31,
+   "incomeHistory": [
+    2600000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": true
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 11100000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 2800000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 5300000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 1700000
+    }
+   ],
+   "familyCostsPerYear": 770395,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 3100000,
+     "productCategory": "WHOLE_LIFE"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 7800000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1400000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    },
+    {
+     "label": "EPF",
+     "value": 3800000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-47",
+   "age": 51,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    1700000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 3800000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 1700000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 5000000
+    }
+   ],
+   "familyCostsPerYear": 504549,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 3400000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1200000,
+     "kind": "LIQUID",
+     "allocatedTo": "EDUCATION"
+    }
+   ]
+  },
+  {
+   "id": "G-48",
+   "age": 50,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    3261477,
+    3852847,
+    3100000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 4000000
+    }
+   ],
+   "goals": [],
+   "familyCostsPerYear": 1236116,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 600000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    }
+   ]
+  },
+  {
+   "id": "G-49",
+   "age": 45,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    3661898,
+    3052739,
+    2800000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 5800000
+    }
+   ],
+   "familyCostsPerYear": 965839,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 10700000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-50",
+   "age": 21,
+   "sex": "F",
+   "smoker": true,
+   "incomeHistory": [
+    5100000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 1700000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 3800000
+    }
+   ],
+   "familyCostsPerYear": 2386673,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 6300000,
+     "productCategory": "WHOLE_LIFE"
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 4300000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-51",
+   "age": 32,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    2656286,
+    3970864,
+    4200000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 7400000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 500000
+    }
+   ],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 14600000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 2600000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-52",
+   "age": 38,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    5054920,
+    3931914,
+    3500000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 5800000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 200000
+    }
+   ],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 9100000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2100000,
+     "kind": "LIQUID",
+     "allocatedTo": "EDUCATION"
+    },
+    {
+     "label": "EPF",
+     "value": 3000000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-53",
+   "age": 50,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    2600000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 2700000
+    }
+   ],
+   "goals": [],
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-54",
+   "age": 58,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    3800000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 3000000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 5500000
+    }
+   ],
+   "familyCostsPerYear": 1023917,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 12600000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2100000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-55",
+   "age": 68,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    4300000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 300000
+    }
+   ],
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 4300000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 300000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    },
+    {
+     "label": "EPF",
+     "value": 3500000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-56",
+   "age": 23,
+   "smoker": false,
+   "incomeHistory": [
+    2400000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 3700000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 4000000
+    }
+   ],
+   "familyCostsPerYear": 878306,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 13100000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 4000000,
+     "kind": "LIQUID",
+     "allocatedTo": "EDUCATION"
+    }
+   ]
+  },
+  {
+   "id": "G-57",
+   "age": 16,
+   "incomeHistory": [
+    500000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [],
+   "goals": [],
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-58",
+   "age": 37,
+   "sex": "F",
+   "incomeHistory": [
+    1900000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 9700000
+    }
+   ],
+   "goals": [],
+   "familyCostsPerYear": 1060972,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 3800000
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-59",
+   "age": 49,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    873809,
+    1096518,
+    1400000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 4700000
+    }
+   ],
+   "familyCostsPerYear": 723327,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 7800000,
+     "productCategory": "ENDOWMENT"
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-60",
+   "age": 41,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    3900000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 3700000
+    }
+   ],
+   "goals": [],
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-61",
+   "age": 51,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    903794,
+    1017889,
+    800000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 2100000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 1300000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 800000
+    }
+   ],
+   "familyCostsPerYear": 286887,
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-62",
+   "age": 58,
+   "smoker": false,
+   "incomeHistory": [
+    2172593,
+    1111067,
+    1500000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 1600000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 300000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 5500000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 2400000
+    }
+   ],
+   "familyCostsPerYear": 429811,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 3900000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-63",
+   "age": 29,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    6187589,
+    6998421,
+    5100000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 6500000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 2800000
+    }
+   ],
+   "familyCostsPerYear": 2567550,
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-64",
+   "age": 53,
+   "smoker": false,
+   "incomeHistory": [
+    3900000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 2500000
+    }
+   ],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 13600000,
+     "productCategory": "ENDOWMENT"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 3900000
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-65",
+   "age": 40,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    700000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 900000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 3800000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 5800000
+    }
+   ],
+   "familyCostsPerYear": 214109,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3400000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    },
+    {
+     "label": "EPF",
+     "value": 4500000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-66",
+   "age": 50,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    3000000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 4300000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 5100000
+    }
+   ],
+   "familyCostsPerYear": 1256927,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2100000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    },
+    {
+     "label": "EPF",
+     "value": 3300000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-67",
+   "age": 23,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    6000000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 2100000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 300000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 2600000
+    }
+   ],
+   "familyCostsPerYear": 2539516,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 13600000,
+     "productCategory": "WHOLE_LIFE"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 6000000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 800000,
+     "kind": "LIQUID",
+     "allocatedTo": "LIVING"
+    },
+    {
+     "label": "EPF",
+     "value": 1900000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-68",
+   "age": 27,
+   "sex": "F",
+   "incomeHistory": [
+    2100000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 2300000
+    }
+   ],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 7000000,
+     "productCategory": "WHOLE_LIFE"
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 200000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-69",
+   "age": 33,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    3434928,
+    1628518,
+    2700000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [],
+   "loans": [],
+   "goals": [],
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1900000,
+     "kind": "LIQUID",
+     "allocatedTo": "EDUCATION"
+    },
+    {
+     "label": "EPF",
+     "value": 3100000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-70",
+   "age": 37,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    0
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 5700000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 800000
+    }
+   ],
+   "familyCostsPerYear": 117776,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 13900000,
+     "productCategory": "ENDOWMENT"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 0
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 4400000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ],
+   "isHomemaker": true
+  },
+  {
+   "id": "G-71",
+   "age": 51,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    995001,
+    1757627,
+    1600000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 2900000
+    }
+   ],
+   "goals": [],
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 100000,
+     "kind": "LIQUID",
+     "allocatedTo": "EDUCATION"
+    }
+   ]
+  },
+  {
+   "id": "G-72",
+   "age": 30,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    4900000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 2300000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 1500000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 6000000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 2000000
+    }
+   ],
+   "familyCostsPerYear": 1895226,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 11600000,
+     "productCategory": "TERM"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 4900000
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 3900000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-73",
+   "age": 44,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    0
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 6900000
+    }
+   ],
+   "goals": [],
+   "existingCover": [],
+   "assets": [],
+   "isHomemaker": true
+  },
+  {
+   "id": "G-74",
+   "age": 47,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    3800000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": true
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 500000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 2200000
+    }
+   ],
+   "familyCostsPerYear": 1359383,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 5900000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3000000,
+     "kind": "LIQUID",
+     "allocatedTo": "EDUCATION"
+    }
+   ]
+  },
+  {
+   "id": "G-75",
+   "age": 20,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    900000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 8300000
+    }
+   ],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 900000
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 2800000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-76",
+   "age": 48,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    4500000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 1300000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 1800000
+    }
+   ],
+   "familyCostsPerYear": 1613865,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 5600000,
+     "productCategory": "WHOLE_LIFE"
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 1000000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-77",
+   "age": 72,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    3998959,
+    8377855,
+    5800000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [],
+   "loans": [],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 12700000,
+     "productCategory": "ENDOWMENT"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3200000,
+     "kind": "LIQUID",
+     "allocatedTo": "EDUCATION"
+    }
+   ]
+  },
+  {
+   "id": "G-78",
+   "age": 27,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    5200000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 5400000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 1700000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 5000000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 4800000
+    }
+   ],
+   "familyCostsPerYear": 1522017,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 5200000
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-79",
+   "age": 18,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    5700000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 3800000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 2500000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 1900000
+    }
+   ],
+   "familyCostsPerYear": 3014079,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 7100000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-80",
+   "age": 47,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    577610,
+    322253,
+    400000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 500000
+    }
+   ],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 14800000,
+     "productCategory": "ENDOWMENT"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3400000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-81",
+   "age": 22,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    4200000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [],
+   "familyCostsPerYear": 1399747,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 8400000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3400000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    },
+    {
+     "label": "EPF",
+     "value": 1900000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-82",
+   "age": 28,
+   "sex": "F",
+   "smoker": true,
+   "incomeHistory": [
+    2100000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 11900000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 300000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 1300000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 2200000
+    }
+   ],
+   "familyCostsPerYear": 1089316,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 13200000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-83",
+   "age": 43,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    3304235,
+    4911640,
+    4100000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 11100000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 4600000
+    }
+   ],
+   "familyCostsPerYear": 1205739,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 6400000,
+     "productCategory": "WHOLE_LIFE"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1800000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    },
+    {
+     "label": "EPF",
+     "value": 1700000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-84",
+   "age": 41,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    1200000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 9600000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 5900000
+    }
+   ],
+   "familyCostsPerYear": 573118,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 6000000,
+     "productCategory": "WHOLE_LIFE"
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-85",
+   "age": 43,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    3400000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 4100000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 600000
+    }
+   ],
+   "familyCostsPerYear": 1017881,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1100000,
+     "kind": "LIQUID",
+     "allocatedTo": "LIVING"
+    }
+   ]
+  },
+  {
+   "id": "G-86",
+   "age": 27,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    4500000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 11300000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 2900000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 2200000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 5700000
+    }
+   ],
+   "familyCostsPerYear": 1157425,
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-87",
+   "age": 62,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    3900000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [],
+   "familyCostsPerYear": 2262365,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 3900000
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 4700000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-88",
+   "age": 29,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    2200000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 2000000
+    }
+   ],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 2200000
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 4000000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-89",
+   "age": 40,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    1800000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 8600000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 1300000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 1900000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 1400000
+    }
+   ],
+   "familyCostsPerYear": 492612,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 1800000
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-90",
+   "age": 49,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    601446,
+    871077,
+    900000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 500000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 5300000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 4000000
+    }
+   ],
+   "familyCostsPerYear": 370863,
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-91",
+   "age": 19,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    2400000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 6000000
+    }
+   ],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 2400000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2300000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-92",
+   "age": 68,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    2390611,
+    1829232,
+    2400000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 2900000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 700000
+    }
+   ],
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 400000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    },
+    {
+     "label": "EPF",
+     "value": 4500000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-93",
+   "age": 53,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    2000000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 200000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 1500000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 4700000
+    }
+   ],
+   "familyCostsPerYear": 554226,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 13200000,
+     "productCategory": "WHOLE_LIFE"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 6000000
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 400000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-94",
+   "age": 33,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    2700000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 7900000
+    }
+   ],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 9200000,
+     "productCategory": "TERM"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 8100000
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 4500000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-95",
+   "age": 49,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    554383,
+    451418,
+    700000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 2300000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 900000
+    }
+   ],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 4500000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2600000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    }
+   ]
+  },
+  {
+   "id": "G-96",
+   "age": 38,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    2100000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 2500000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 1600000
+    }
+   ],
+   "familyCostsPerYear": 632927,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 6300000
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 3600000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-97",
+   "age": 36,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    400000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 4000000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 1800000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 1300000
+    }
+   ],
+   "familyCostsPerYear": 213380,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3100000,
+     "kind": "LIQUID",
+     "allocatedTo": "LIVING"
+    },
+    {
+     "label": "EPF",
+     "value": 1700000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-98",
+   "age": 22,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    2900000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 3100000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 2100000
+    }
+   ],
+   "familyCostsPerYear": 1160408,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 1300000,
+     "productCategory": "WHOLE_LIFE"
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-99",
+   "age": 39,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    848563,
+    418376,
+    600000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 11100000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 3200000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 5300000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 5900000
+    }
+   ],
+   "familyCostsPerYear": 351760,
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-100",
+   "age": 41,
+   "incomeHistory": [
+    2863554,
+    4385568,
+    4400000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 3700000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 5500000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 1300000
+    }
+   ],
+   "familyCostsPerYear": 2289171,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 10900000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 600000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-101",
+   "age": 43,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    1900000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 700000
+    }
+   ],
+   "familyCostsPerYear": 637537,
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-102",
+   "age": 43,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    3700000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 3400000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 1000000
+    }
+   ],
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 7400000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2200000,
+     "kind": "LIQUID",
+     "allocatedTo": "LIVING"
+    }
+   ]
+  },
+  {
+   "id": "G-103",
+   "age": 31,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    2100000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": true
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 600000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 4300000
+    }
+   ],
+   "familyCostsPerYear": 579152,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 8100000,
+     "productCategory": "TERM"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 4200000
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 200000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-104",
+   "age": 24,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    4500000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 4900000
+    }
+   ],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 600000,
+     "productCategory": "ENDOWMENT"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 9000000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1000000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    },
+    {
+     "label": "EPF",
+     "value": 3400000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-105",
+   "age": 29,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    3800000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 5500000
+    }
+   ],
+   "goals": [],
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1500000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-106",
+   "age": 27,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    1300000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": true
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 6600000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 3100000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 5300000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 500000
+    }
+   ],
+   "familyCostsPerYear": 632097,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 4900000,
+     "productCategory": "TERM"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 1300000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2400000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    },
+    {
+     "label": "EPF",
+     "value": 1500000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-107",
+   "age": 39,
+   "smoker": false,
+   "incomeHistory": [
+    4300000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 5400000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 1000000
+    }
+   ],
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 4300000
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-108",
+   "age": 29,
+   "sex": "F",
+   "incomeHistory": [
+    1500000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 1800000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 2900000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 2600000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 3400000
+    }
+   ],
+   "familyCostsPerYear": 656375,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 2800000,
+     "productCategory": "WHOLE_LIFE"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 1500000
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 3900000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-109",
+   "age": 20,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    4300000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 7800000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 5200000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 4500000
+    }
+   ],
+   "familyCostsPerYear": 1640902,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1700000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    },
+    {
+     "label": "EPF",
+     "value": 5000000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-110",
+   "age": 20,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    2700000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 10600000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 1000000
+    }
+   ],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 3800000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-111",
+   "age": 55,
+   "sex": "F",
+   "smoker": true,
+   "incomeHistory": [
+    0
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 3800000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 2900000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 1900000
+    }
+   ],
+   "familyCostsPerYear": 178853,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 8800000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 3600000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-112",
+   "age": 46,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    400000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 5300000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3800000,
+     "kind": "LIQUID",
+     "allocatedTo": "LIVING"
+    },
+    {
+     "label": "EPF",
+     "value": 2900000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-113",
+   "age": 38,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    4600000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 9500000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 300000
+    }
+   ],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 10500000,
+     "productCategory": "ENDOWMENT"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1500000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    }
+   ]
+  },
+  {
+   "id": "G-114",
+   "age": 25,
+   "smoker": false,
+   "incomeHistory": [
+    5300000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 2100000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 2000000
+    }
+   ],
+   "familyCostsPerYear": 2452424,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 3700000,
+     "productCategory": "WHOLE_LIFE"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 15900000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 600000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-115",
+   "age": 39,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    1600000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": true
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 3100000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 1800000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 4100000
+    }
+   ],
+   "familyCostsPerYear": 915393,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 2900000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1000000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-116",
+   "age": 54,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    7834807,
+    4433375,
+    5600000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 3600000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 500000
+    }
+   ],
+   "familyCostsPerYear": 1611363,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2900000,
+     "kind": "LIQUID",
+     "allocatedTo": "LIVING"
+    },
+    {
+     "label": "EPF",
+     "value": 1500000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-117",
+   "age": 56,
+   "smoker": false,
+   "incomeHistory": [
+    0
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": true
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 5400000
+    }
+   ],
+   "familyCostsPerYear": 79874,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1800000,
+     "kind": "LIQUID",
+     "allocatedTo": "LIVING"
+    }
+   ],
+   "isHomemaker": true,
+   "householdContributionPerYear": 100000
+  },
+  {
+   "id": "G-118",
+   "age": 22,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    0
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 1000000
+    }
+   ],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 0
+    }
+   ],
+   "assets": [],
+   "isHomemaker": true
+  },
+  {
+   "id": "G-119",
+   "age": 16,
+   "incomeHistory": [
+    500000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [],
+   "goals": [],
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-120",
+   "age": 48,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    5600000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 400000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 1000000
+    }
+   ],
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 16800000
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 4700000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-121",
+   "age": 53,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    2700000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 4200000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 5100000
+    }
+   ],
+   "familyCostsPerYear": 1595539,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 4000000,
+     "productCategory": "WHOLE_LIFE"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1800000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    }
+   ]
+  },
+  {
+   "id": "G-122",
+   "age": 54,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    1800000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 3000000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 3300000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 5300000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 5900000
+    }
+   ],
+   "familyCostsPerYear": 587477,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 3600000
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 2600000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-123",
+   "age": 37,
+   "sex": "M",
+   "incomeHistory": [
+    4000000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 1100000
+    }
+   ],
+   "goals": [],
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2700000,
+     "kind": "LIQUID",
+     "allocatedTo": "LIVING"
+    }
+   ]
+  },
+  {
+   "id": "G-124",
+   "age": 31,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    4376246,
+    5431111,
+    5100000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": true
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 4700000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 3800000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 4600000
+    }
+   ],
+   "familyCostsPerYear": 1810287,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 1900000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-125",
+   "age": 30,
+   "incomeHistory": [
+    5400000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 4200000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 5600000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 1000000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 3400000
+    }
+   ],
+   "familyCostsPerYear": 2744748,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 1100000,
+     "productCategory": "ENDOWMENT"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 600000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-126",
+   "age": 29,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    362404,
+    480594,
+    500000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 6400000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 4500000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 2900000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 700000
+    }
+   ],
+   "familyCostsPerYear": 212996,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 500000,
+     "kind": "LIQUID",
+     "allocatedTo": "LIVING"
+    }
+   ]
+  },
+  {
+   "id": "G-127",
+   "age": 16,
+   "incomeHistory": [
+    -200000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [],
+   "goals": [],
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-128",
+   "age": 90,
+   "incomeHistory": [
+    -200000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [],
+   "goals": [],
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-129",
+   "age": 52,
+   "smoker": false,
+   "incomeHistory": [
+    6903425,
+    6048441,
+    5900000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 2100000
+    }
+   ],
+   "familyCostsPerYear": 2214457,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 2100000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 3900000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-130",
+   "age": 40,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    4908650,
+    6946628,
+    4700000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 2000000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 200000
+    }
+   ],
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 300000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    },
+    {
+     "label": "EPF",
+     "value": 3200000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-131",
+   "age": 48,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    363365,
+    330524,
+    300000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 3200000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 5200000
+    }
+   ],
+   "familyCostsPerYear": 131034,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3500000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    },
+    {
+     "label": "EPF",
+     "value": 5000000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-132",
+   "age": 32,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    4407704,
+    5070900,
+    3600000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [],
+   "loans": [],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 5600000,
+     "productCategory": "WHOLE_LIFE"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2900000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    },
+    {
+     "label": "EPF",
+     "value": 4400000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-133",
+   "age": 49,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    1800000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 5100000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 4500000
+    }
+   ],
+   "familyCostsPerYear": 510582,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 5400000
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-134",
+   "age": 38,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    1300000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 4100000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 3600000
+    }
+   ],
+   "familyCostsPerYear": 408867,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 6500000,
+     "productCategory": "ENDOWMENT"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3300000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-135",
+   "age": 39,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    600000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 4200000
+    }
+   ],
+   "familyCostsPerYear": 237437,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 14600000,
+     "productCategory": "ENDOWMENT"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 1200000
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-136",
+   "age": 43,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    5300000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": true
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 400000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 2400000
+    }
+   ],
+   "familyCostsPerYear": 2793959,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2200000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    }
+   ]
+  },
+  {
+   "id": "G-137",
+   "age": 56,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    554642,
+    545770,
+    400000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 4600000
+    }
+   ],
+   "familyCostsPerYear": 148637,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 9000000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-138",
+   "age": 30,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    0
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 0
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 3800000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ],
+   "isHomemaker": true,
+   "householdContributionPerYear": 300000
+  },
+  {
+   "id": "G-139",
+   "age": 72,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    0
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 3000000
+    }
+   ],
+   "goals": [],
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 400000,
+     "kind": "LIQUID",
+     "allocatedTo": "EDUCATION"
+    },
+    {
+     "label": "EPF",
+     "value": 2300000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-140",
+   "age": 80,
+   "incomeHistory": [
+    500000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [],
+   "goals": [],
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-141",
+   "age": 49,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    1100000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 900000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 3600000
+    }
+   ],
+   "familyCostsPerYear": 384656,
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-142",
+   "age": 31,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    4900000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 10100000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 1100000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 2300000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 800000
+    }
+   ],
+   "familyCostsPerYear": 2868819,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 2500000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-143",
+   "age": 23,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    300000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 11100000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 400000
+    }
+   ],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 3800000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 100000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-144",
+   "age": 41,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    1100000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 4900000
+    }
+   ],
+   "familyCostsPerYear": 547270,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 5500000,
+     "productCategory": "TERM"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 1100000
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 600000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-145",
+   "age": 32,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    2300000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 2800000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 1100000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 3200000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 4900000
+    }
+   ],
+   "familyCostsPerYear": 893011,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 12000000,
+     "productCategory": "ENDOWMENT"
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-146",
+   "age": 31,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    5300000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 8200000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 800000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 3000000
+    }
+   ],
+   "familyCostsPerYear": 2717256,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 13100000,
+     "productCategory": "ENDOWMENT"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 5300000
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-147",
+   "age": 31,
+   "sex": "F",
+   "incomeHistory": [
+    1640470,
+    1226607,
+    2000000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 800000
+    }
+   ],
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-148",
+   "age": 33,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    1637237,
+    1346675,
+    1100000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 2100000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 800000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 1100000
+    }
+   ],
+   "familyCostsPerYear": 337140,
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-149",
+   "age": 53,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    800000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 700000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 4100000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 3300000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 1500000
+    }
+   ],
+   "familyCostsPerYear": 417165,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 3400000,
+     "productCategory": "ENDOWMENT"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1900000,
+     "kind": "LIQUID",
+     "allocatedTo": "EDUCATION"
+    },
+    {
+     "label": "EPF",
+     "value": 2600000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-150",
+   "age": 60,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    3700000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": true
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": true
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 2800000
+    }
+   ],
+   "goals": [],
+   "familyCostsPerYear": 1840601,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 7400000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 300000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    },
+    {
+     "label": "EPF",
+     "value": 2800000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-151",
+   "age": 39,
+   "sex": "M",
+   "incomeHistory": [
+    5800000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 4100000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 2000000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 4100000
+    }
+   ],
+   "familyCostsPerYear": 3058491,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 5100000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-152",
+   "age": 16,
+   "incomeHistory": [
+    500000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [],
+   "goals": [],
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-153",
+   "age": 31,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    2000000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [],
+   "goals": [],
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2400000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    }
+   ]
+  },
+  {
+   "id": "G-154",
+   "age": 31,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    0
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 9300000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 2300000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 4300000
+    }
+   ],
+   "familyCostsPerYear": 208335,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 900000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    }
+   ],
+   "isHomemaker": true,
+   "householdContributionPerYear": 300000
+  },
+  {
+   "id": "G-155",
+   "age": 51,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    1600000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": true
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 1500000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 1800000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 5200000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 5400000
+    }
+   ],
+   "familyCostsPerYear": 714072,
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-156",
+   "age": 33,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    3855737,
+    3195921,
+    4500000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 4900000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 5700000
+    }
+   ],
+   "familyCostsPerYear": 1359100,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 200000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-157",
+   "age": 58,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    1000000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 2900000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 4700000
+    }
+   ],
+   "familyCostsPerYear": 464977,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 500000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2600000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    }
+   ]
+  },
+  {
+   "id": "G-158",
+   "age": 18,
+   "sex": "M",
+   "incomeHistory": [
+    1900000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": true
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 3000000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 3200000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 1100000
+    }
+   ],
+   "familyCostsPerYear": 985651,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 3600000,
+     "productCategory": "ENDOWMENT"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 1900000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 400000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-159",
+   "age": 32,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    4600000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 8300000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 5200000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 6000000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 1500000
+    }
+   ],
+   "familyCostsPerYear": 1417752,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 3900000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3300000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    },
+    {
+     "label": "EPF",
+     "value": 600000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-160",
+   "age": 28,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    3540795,
+    2902336,
+    4000000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 3900000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 2800000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 5400000
+    }
+   ],
+   "familyCostsPerYear": 1495256,
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-161",
+   "age": 32,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    5200000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 800000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 1600000
+    }
+   ],
+   "familyCostsPerYear": 1583355,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 5700000,
+     "productCategory": "TERM"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 5200000
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-162",
+   "age": 21,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    4000000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 1500000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 3700000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 5400000
+    }
+   ],
+   "familyCostsPerYear": 1513136,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 8000000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1600000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    },
+    {
+     "label": "EPF",
+     "value": 4300000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-163",
+   "age": 58,
+   "smoker": false,
+   "incomeHistory": [
+    3000000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 300000
+    }
+   ],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 6000000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 4000000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    }
+   ]
+  },
+  {
+   "id": "G-164",
+   "age": 30,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    5600000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 700000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 2600000
+    }
+   ],
+   "familyCostsPerYear": 1931183,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 1000000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-165",
+   "age": 23,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    3600000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 7500000
+    }
+   ],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 5500000,
+     "productCategory": "TERM"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 10800000
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 900000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-166",
+   "age": 35,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    1600000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 5000000
+    }
+   ],
+   "familyCostsPerYear": 487138,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 7300000,
+     "productCategory": "WHOLE_LIFE"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2600000,
+     "kind": "LIQUID",
+     "allocatedTo": "LIVING"
+    },
+    {
+     "label": "EPF",
+     "value": 2700000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-167",
+   "age": 32,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    300000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 9000000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-168",
+   "age": 45,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    5000000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 3500000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 2600000
+    }
+   ],
+   "familyCostsPerYear": 1638535,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2800000,
+     "kind": "LIQUID",
+     "allocatedTo": "LIVING"
+    },
+    {
+     "label": "EPF",
+     "value": 4600000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-169",
+   "age": 49,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    3443517,
+    2291078,
+    2900000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 500000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 1900000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 3000000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 1200000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 400000
+    }
+   ],
+   "familyCostsPerYear": 891417,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 10300000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 1000000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-170",
+   "age": 30,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    5500000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 3600000
+    }
+   ],
+   "familyCostsPerYear": 2437560,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1700000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-171",
+   "age": 42,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    4400000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 8800000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 2600000
+    }
+   ],
+   "familyCostsPerYear": 1735090,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 4400000
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 3500000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-172",
+   "age": 20,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    800000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 6600000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 1600000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 5100000
+    }
+   ],
+   "familyCostsPerYear": 461259,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 6800000,
+     "productCategory": "ENDOWMENT"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 900000,
+     "kind": "LIQUID",
+     "allocatedTo": "LIVING"
+    },
+    {
+     "label": "EPF",
+     "value": 1700000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-173",
+   "age": 35,
+   "smoker": false,
+   "incomeHistory": [
+    3000000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 5700000
+    }
+   ],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 2800000,
+     "productCategory": "TERM"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 9000000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1800000,
+     "kind": "LIQUID",
+     "allocatedTo": "EDUCATION"
+    }
+   ]
+  },
+  {
+   "id": "G-174",
+   "age": 18,
+   "sex": "F",
+   "incomeHistory": [
+    3400000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 2800000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 4600000
+    }
+   ],
+   "familyCostsPerYear": 1705252,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 7700000,
+     "productCategory": "WHOLE_LIFE"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 3400000
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-175",
+   "age": 41,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    1700000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 600000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 1100000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 2100000
+    }
+   ],
+   "familyCostsPerYear": 969135,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 1100000,
+     "productCategory": "TERM"
+    },
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 5100000
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-176",
+   "age": 28,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    4760780,
+    5704498,
+    5300000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": true
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 10900000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 2800000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 4300000
+    }
+   ],
+   "familyCostsPerYear": 2397898,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 3500000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 100000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-177",
+   "age": 40,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    4800000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 8300000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 1900000
+    }
+   ],
+   "familyCostsPerYear": 1503474,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 8800000,
+     "productCategory": "WHOLE_LIFE"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 900000,
+     "kind": "LIQUID",
+     "allocatedTo": "EDUCATION"
+    }
+   ]
+  },
+  {
+   "id": "G-178",
+   "age": 32,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    6000000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 1100000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 5800000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 3400000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 5400000
+    }
+   ],
+   "familyCostsPerYear": 1526908,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3000000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    }
+   ]
+  },
+  {
+   "id": "G-179",
+   "age": 49,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    656398,
+    827904,
+    700000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 1100000
+    }
+   ],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 9500000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 1200000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-180",
+   "age": 20,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    5800000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 3200000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 400000
+    }
+   ],
+   "familyCostsPerYear": 2647080,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 2900000,
+     "productCategory": "WHOLE_LIFE"
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-181",
+   "age": 49,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    3310099,
+    2753289,
+    3700000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 2700000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 5000000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 1800000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 3900000
+    }
+   ],
+   "familyCostsPerYear": 1970905,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 9900000,
+     "productCategory": "WHOLE_LIFE"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2100000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    },
+    {
+     "label": "EPF",
+     "value": 1000000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-182",
+   "age": 44,
+   "sex": "M",
+   "smoker": true,
+   "incomeHistory": [
+    2270063,
+    2140416,
+    1600000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 1500000
+    },
+    {
+     "kind": "MARRIAGE",
+     "amount": 2000000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 5900000
+    }
+   ],
+   "familyCostsPerYear": 437767,
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-183",
+   "age": 35,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    2700000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 1300000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 1500000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 2800000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 4200000
+    }
+   ],
+   "familyCostsPerYear": 1402906,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 8100000
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3800000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    },
+    {
+     "label": "EPF",
+     "value": 2400000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-184",
+   "age": 43,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    2291082,
+    3371037,
+    3100000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 700000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 2300000
+    }
+   ],
+   "familyCostsPerYear": 1104520,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1700000,
+     "kind": "LIQUID",
+     "allocatedTo": "EDUCATION"
+    },
+    {
+     "label": "EPF",
+     "value": 2300000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-185",
+   "age": 55,
+   "sex": "F",
+   "incomeHistory": [
+    900000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 2500000
+    }
+   ],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 8300000,
+     "productCategory": "WHOLE_LIFE"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3100000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-186",
+   "age": 34,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    5775145,
+    3429422,
+    3900000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 500000
+    }
+   ],
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 4100000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-187",
+   "age": 65,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    4506160,
+    2863158,
+    4200000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 2500000
+    }
+   ],
+   "goals": [],
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-188",
+   "age": 23,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    1300000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 4700000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 2600000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 3200000
+    }
+   ],
+   "familyCostsPerYear": 640158,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 14800000,
+     "productCategory": "WHOLE_LIFE"
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-189",
+   "age": 38,
+   "smoker": false,
+   "incomeHistory": [
+    2234031,
+    1846615,
+    1500000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 3300000
+    }
+   ],
+   "familyCostsPerYear": 867126,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 5200000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-190",
+   "age": 72,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    3061305,
+    3589447,
+    2400000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 700000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "EDUCATION",
+     "amount": 4500000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 1600000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 5300000
+    }
+   ],
+   "familyCostsPerYear": 1025446,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 10200000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 1200000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-191",
+   "age": 35,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    1800000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 4400000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 2900000
+    }
+   ],
+   "familyCostsPerYear": 830145,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 400000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    },
+    {
+     "label": "EPF",
+     "value": 900000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-192",
+   "age": 34,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    2700000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 5000000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 1200000
+    }
+   ],
+   "familyCostsPerYear": 1067015,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "EPF",
+     "value": 900000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-193",
+   "age": 20,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    3263014,
+    4177187,
+    4300000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": true
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 3700000
+    }
+   ],
+   "familyCostsPerYear": 1141161,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 3100000,
+     "kind": "LIQUID",
+     "allocatedTo": "LIVING"
+    },
+    {
+     "label": "EPF",
+     "value": 2400000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-194",
+   "age": 18,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    2800000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 5500000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 3500000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 3000000
+    }
+   ],
+   "familyCostsPerYear": 1396848,
+   "existingCover": [],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 2000000,
+     "kind": "LIQUID",
+     "allocatedTo": "EDUCATION"
+    }
+   ]
+  },
+  {
+   "id": "G-195",
+   "age": 33,
+   "sex": "F",
+   "smoker": true,
+   "incomeHistory": [
+    1900000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Parent",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 6500000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 400000
+    }
+   ],
+   "familyCostsPerYear": 658455,
+   "existingCover": [],
+   "assets": []
+  },
+  {
+   "id": "G-196",
+   "age": 52,
+   "sex": "F",
+   "smoker": false,
+   "incomeHistory": [
+    4600000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 2800000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 5800000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 3800000
+    },
+    {
+     "kind": "SPOUSE_RETIREMENT",
+     "amount": 3200000
+    }
+   ],
+   "familyCostsPerYear": 2565809,
+   "existingCover": [
+    {
+     "kind": "EMPLOYER",
+     "label": "Group cover",
+     "deathSumAssured": 13800000
+    }
+   ],
+   "assets": []
+  },
+  {
+   "id": "G-197",
+   "age": 22,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    2400000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Car loan",
+     "outstanding": 4500000
+    }
+   ],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 14700000,
+     "productCategory": "ENDOWMENT"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 800000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    },
+    {
+     "label": "EPF",
+     "value": 4600000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-198",
+   "age": 50,
+   "incomeHistory": [
+    5800000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Spouse",
+     "lifelong": false
+    },
+    {
+     "relation": "Child",
+     "lifelong": false
+    }
+   ],
+   "loans": [
+    {
+     "label": "Home loan",
+     "outstanding": 3500000
+    }
+   ],
+   "goals": [
+    {
+     "kind": "MARRIAGE",
+     "amount": 800000
+    },
+    {
+     "kind": "HEALTH_EMERGENCY",
+     "amount": 4000000
+    }
+   ],
+   "familyCostsPerYear": 1592753,
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 9800000,
+     "productCategory": "TERM"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 900000,
+     "kind": "LIQUID",
+     "allocatedTo": "LOANS"
+    }
+   ]
+  },
+  {
+   "id": "G-199",
+   "age": 56,
+   "smoker": false,
+   "incomeHistory": [
+    793351,
+    505981,
+    800000
+   ],
+   "incomeBasis": "SELF_EMPLOYED",
+   "dependants": [],
+   "loans": [
+    {
+     "label": "Business loan",
+     "outstanding": 2300000
+    }
+   ],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 12600000,
+     "productCategory": "ENDOWMENT"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1100000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    },
+    {
+     "label": "EPF",
+     "value": 4900000,
+     "kind": "RETIREMENT",
+     "allocatedTo": null
+    }
+   ]
+  },
+  {
+   "id": "G-200",
+   "age": 51,
+   "sex": "M",
+   "smoker": false,
+   "incomeHistory": [
+    700000
+   ],
+   "incomeBasis": "SALARIED",
+   "dependants": [],
+   "loans": [],
+   "goals": [],
+   "existingCover": [
+    {
+     "kind": "OWN",
+     "label": "Policy",
+     "deathSumAssured": 1500000,
+     "productCategory": "WHOLE_LIFE"
+    }
+   ],
+   "assets": [
+    {
+     "label": "Mutual funds",
+     "value": 1700000,
+     "kind": "LIQUID",
+     "allocatedTo": null
+    }
+   ]
+  }
+ ]
+}

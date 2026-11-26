@@ -1,0 +1,66 @@
+{
+  "configVersion": "v2026.11-s1",
+  "eyebrow": "Judge's guide · How it works",
+  "thesis": "Every other flow asks what you want to buy. This one asks whether your family can carry on without you.",
+  "sub": "Deterministic formulas and rules, no machine learning. Every number on screen can be traced to an input, a formula, a rule ID and a config version.",
+  "story": [
+    { "title": "Tap the \"Arjun\" persona", "body": "A verdict and range appear straight away, with no personal details asked.", "tag": "Stage 1" },
+    { "title": "Open the gap: ₹2.39 Cr", "body": "The waterfall adds up to the gap. Tap any bar to see its formula, inputs and config IDs.", "tag": "Stage 2" },
+    { "title": "Ask \"why not ₹1 Cr?\"", "body": "₹1 Cr runs out after the loan and about 7½ years of living costs. Assumption swings are one table away.", "tag": "Stage 2" },
+    { "title": "See term first, savings plans locked", "body": "Drag the cover slider: the premium comes from the rate table, and the surrender table shows what early exit costs.", "tag": "Stage 3" },
+    { "title": "Book, then show the advisor's view", "body": "Reality check, slot and consent, then the one-page handoff and the decision trail.", "tag": "Stage 4 · Handoff" }
+  ],
+  "formulas": "Real rate        r = (1 + d) ÷ (1 + g) − 1\nAnnuity factor   AF = (1 − (1 + r)^−n) ÷ r      (r ≠ 0; AF = n when r ≈ 0)\nAnnuity due      AF_due = AF × (1 + r)\n\nHLV  = I × (1 − e) × AF        ordinary annuity, n = years to retirement\nNeed = loans + living cost × AF_due(i) + education\n       + marriage + health and emergency + spouse retirement\nGap  = Need − own death cover − employer cover − allocated savings",
+  "formulaNote": "d discount rate, g income growth, i expense inflation, n years, I income, e own-spending share. Guards: r ≤ −1 rejected; r < 0 caps n at A-MAX-HORIZON; n ≤ 0 gives HLV 0; full precision internally, rounded only for display.",
+  "rules": [
+    { "id": "R1", "when": "Gap > 0", "then": "Term first, recommended" },
+    { "id": "R2", "when": "Lifelong dependant or estate need, and affordable", "then": "Whole life as an add-on" },
+    { "id": "R3", "when": "Term gap closed and budget left over", "then": "Endowment or ULIP as add-ons" },
+    { "id": "R4", "when": "Gap ≤ 0", "then": "\"You appear adequately covered\"; nothing pushed" },
+    { "id": "R5", "when": "Premium above affordability cap", "then": "Lower cover → change term → drop riders → advisor" },
+    { "id": "R6", "when": "Need above insurer limit", "then": "Show both; route to advisor; need not capped" },
+    { "id": "E-*", "when": "Outside age, term or cover limits", "then": "Excluded, with reason and nearest eligible" },
+    { "id": "R-BR1", "when": "Existing savings policy", "then": "Keep + term if both fit the budget, else paid-up + term, else stop + term" }
+  ],
+  "architecture": {
+    "note": "The real files arrive on hackathon day. Only the dashed box is new work then; the engine and UI stay untouched.",
+    "revealDay": { "title": "Reveal-day files", "body": "14 products and rate tables, 200 profiles, 15 advisors and slots" },
+    "adapters": { "title": "Adapters", "body": "Map each file into our schema with a mapping file. The only code touched on the day." },
+    "core": [
+      { "title": "Canonical schema", "body": "Product · RateTable · Profile · Advisor · Slot" },
+      { "title": "Versioned config", "body": "Assumptions, income bands, caps, surrender schedules" }
+    ],
+    "engines": [
+      { "title": "Calc engine", "body": "Pure functions: needs, HLV, gap, guards, explain" },
+      { "title": "Rule engine", "body": "R1 to R6 plus eligibility" },
+      { "title": "Rate lookup", "body": "Keyed by whatever dimensions exist; exact or nearest cell; never extrapolates" }
+    ],
+    "outputs": [
+      { "title": "Four-stage UI", "body": "Verdict, gap, options, advisor" },
+      { "title": "Scheduler", "body": "SQLite; slot locked in one transaction; idempotency key" },
+      { "title": "Decision trail", "body": "Append-only; rule ID and config version on every row" },
+      { "title": "Handoff pack", "body": "One page for the advisor; access logged and time-limited" }
+    ]
+  },
+  "schema": "Product    { id, name, category: TERM | WHOLE_LIFE | ENDOWMENT | ULIP,\n             entryAge: [min, max], maxMaturityAge, term: [min, max],\n             cover: [min, max], riders[], savingsShare, surrenderScheduleId }\nRateTable  { productId, dims: [\"age\",\"sex\",\"smoker\",\"term\",\"coverBand\",\"frequency\"],\n             cells: [ { key: {...}, ratePer1000 } ], version }\nProfile    { id, age, incomeHistory[≤3], dependants[], loans[], goals[],\n             existingCover[ { kind: OWN | EMPLOYER, deathSumAssured } ], assets[] }\nAdvisor    { id, name, languages[], specialities[], licenceRef, licenceValidTo }\nSlot       { id, advisorId, startUtc, endUtc, capacity, booked }",
+  "builtVsDesigned": [
+    { "item": "Canonical schema, sample data, versioned config", "prd": "FR-8.1", "status": "Ship" },
+    { "item": "Calc engine with guards; golden and property tests", "prd": "FR-2.x", "status": "Ship" },
+    { "item": "Stage 1 verdict, Stage 2 waterfall and line items", "prd": "FR-1, 2", "status": "Ship" },
+    { "item": "\"Why ₹X and not ₹Y?\" sensitivity", "prd": "FR-2.11", "status": "Ship" },
+    { "item": "Rule engine, product cards, live sliders, coverage meter", "prd": "FR-3.x", "status": "Ship" },
+    { "item": "Scheduler, handoff pack, decision trail", "prd": "FR-7, 8.2", "status": "Ship" },
+    { "item": "Surrender table, reality check", "prd": "FR-4, 5", "status": "Ship" },
+    { "item": "Existing-policy bridge (all four options)", "prd": "FR-6.1", "status": "Ship" },
+    { "item": "Decision-states board, QA evidence page", "prd": "—", "status": "Ship" },
+    { "item": "Advisor feedback form (writes to the trail)", "prd": "FR-7.6", "status": "Ship, simplified" },
+    { "item": "Vernacular UI, low-bandwidth mode", "prd": "FR-8.6", "status": "Designed only (strings externalised)" },
+    { "item": "Life-event nudges, credit-life layer, LLM explainer", "prd": "FR-8.7", "status": "Designed only" }
+  ],
+  "openQuestions": [
+    "All assumption defaults, income multiples, insurer-cap multiples and the 6% budget limit are placeholders for a finance reviewer.",
+    "The A-MAX-HORIZON guard applies only when the real rate is negative (as specified), so HLV jumps at r = 0 when working years exceed 40. A reviewer should choose whether to cap always (DECISIONS D-17).",
+    "Special surrender value (A-SSV) is a placeholder schedule; surrender, paid-up and maturity figures are illustrative.",
+    "Remuneration disclosure wording is a placeholder for compliance."
+  ]
+}

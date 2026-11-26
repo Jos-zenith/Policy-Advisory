@@ -9,4 +9,3 @@ playwright-report/
 test-results/
 *.tsbuildinfo
 next-env.d.ts
-src/qa/e2e-results.json
